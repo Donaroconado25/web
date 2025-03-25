@@ -4,7 +4,7 @@ import HeroImage from "../../../../public/resources/hero.png";
 
 export const Hero = () => {
   return (
-    <section className="p-5 md:p-20 bg-radial-[100%_50%_at_0%_100%] from-blue to-transparent">
+    <section className="px-5 md:px-20 bg-radial-[100%_50%_at_0%_100%] from-blue to-transparent">
       <div className="container grid grid-cols-1 md:grid-cols-2 gap-10 place-items-center">
         <div className="order-last md:order-first">
           <Image src={HeroImage} alt="" width={400} height={400} quality={100} priority />
