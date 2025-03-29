@@ -1,12 +1,5 @@
 import type React from "react";
-import {
-  ShieldCheck,
-  Car,
-  Home,
-  Heart,
-  Umbrella,
-  Briefcase,
-} from "lucide-react";
+import { ShieldCheck, Heart, Briefcase } from "lucide-react";
 
 interface ServiceProps {
   icon: React.ReactNode;
@@ -24,7 +17,7 @@ const Service = ({
   ctaLink = "#",
 }: ServiceProps) => {
   return (
-    <div className="flex h-full flex-col rounded-lg border border-gray bg-white p-6 shadow-sm transition-all hover:shadow-md">
+    <div className="flex h-full flex-col rounded-lg border border-gray bg-gray-50 p-6 shadow-sm transition-all hover:shadow-md">
       <div className="mb-4">
         <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-light text-red">
           {icon}
@@ -47,45 +40,24 @@ const Service = ({
 export const Services = () => {
   const services = [
     {
-      icon: <Car className="h-6 w-6" />,
-      title: "Auto Insurance",
-      description:
-        "Comprehensive coverage for your vehicles with competitive rates and 24/7 claims assistance.",
-      ctaLink: "/services/auto",
-    },
-    {
-      icon: <Home className="h-6 w-6" />,
-      title: "Home Insurance",
-      description:
-        "Protect your home and belongings with our customizable home insurance policies.",
-      ctaLink: "/services/home",
-    },
-    {
       icon: <Heart className="h-6 w-6" />,
-      title: "Life Insurance",
+      title: "Seguros de vida",
       description:
-        "Secure your family's financial future with our flexible life insurance plans.",
+        "Protege a tus seres queridos con un seguro de vida que garantiza seguridad financiera en cualquier situación.",
       ctaLink: "/services/life",
     },
     {
       icon: <ShieldCheck className="h-6 w-6" />,
-      title: "Health Insurance",
+      title: "Seguros de salud",
       description:
-        "Quality healthcare coverage with access to top medical providers and specialists.",
+        "Accede a atención médica de calidad sin preocupaciones económicas con nuestro seguro de salud.",
       ctaLink: "/services/health",
     },
     {
-      icon: <Umbrella className="h-6 w-6" />,
-      title: "Liability Insurance",
-      description:
-        "Protect yourself and your business from unexpected liability claims and legal expenses.",
-      ctaLink: "/services/liability",
-    },
-    {
       icon: <Briefcase className="h-6 w-6" />,
-      title: "Business Insurance",
+      title: "Seguros complementarios",
       description:
-        "Comprehensive coverage solutions tailored to your business needs and industry requirements.",
+        "Completa tu cobertura con un seguro suplementario para mayor tranquilidad.",
       ctaLink: "/services/business",
     },
   ];
@@ -98,7 +70,8 @@ export const Services = () => {
             Nuestros servicios
           </h2>
           <p className="mx-auto max-w-2xl text-gray-600">
-            Estamos transformando la forma en que las personas adquieren seguros en el mundo.
+            Estamos transformando la forma en que las personas adquieren seguros
+            en el mundo.
           </p>
         </div>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
