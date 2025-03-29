@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import { Phone, Mail, MapPin, Clock, Shield } from "lucide-react";
-import Link from "next/link";
 
 export const Footer = () => {
   return (
@@ -164,13 +163,6 @@ export const Footer = () => {
           <p className="text-sm text-muted-foreground">
             ©2025. Todos los derechos reservados.
           </p>
-          <Link
-            href="https://www.linkedin.com/in/brayan-yepesc/"
-            className="text-sm text-muted-foreground"
-          >
-            Desarrollado por Brayan Yepes
-          </Link>
-
           <div className="flex flex-wrap justify-center gap-4 text-sm text-muted-foreground">
             <a href="#" className="hover:text-primary transition-colors">
               Política de Privacidad
