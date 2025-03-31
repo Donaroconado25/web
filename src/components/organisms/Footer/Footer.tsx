@@ -1,9 +1,11 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Phone, Mail, MapPin, Clock, Shield } from "lucide-react";
+import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 export const Footer = () => {
+  const t = useTranslations();
   return (
     <footer className="relative mt-40 pb-10 overflow-hidden bg-gradient-to-b from-background to-primary/10">
       {/* Main footer content */}
@@ -31,19 +33,13 @@ export const Footer = () => {
                   referrerPolicy="no-referrer-when-downgrade"
                   className="absolute inset-0"
                 ></iframe>
-
-                {/* Overlay with logo */}
-                <div className="absolute inset-0 bg-black/20 flex items-center justify-center">
-                  <div className="bg-background/90 backdrop-blur-sm p-6 rounded-xl flex items-center gap-3">
-                    <Shield className="h-8 w-8 text-primary" />
-                    <span className="text-xl font-bold">Seguros Confianza</span>
-                  </div>
-                </div>
               </div>
 
               {/* Contact info side */}
               <div className="p-8 md:p-10">
-                <h3 className="text-2xl font-bold mb-6">Contáctanos</h3>
+                <h3 className="text-2xl font-bold mb-6">
+                  {t("home.contact.callme")}
+                </h3>
 
                 <div className="space-y-5">
                   <motion.div
@@ -57,11 +53,8 @@ export const Footer = () => {
                       <Phone className="h-5 w-5" />
                     </div>
                     <div>
-                      <p className="font-medium">Llámanos</p>
-                      <p className="text-muted-foreground">+1-877-231-1888</p>
-                      <p className="text-xs text-muted-foreground mt-1">
-                        Lun-Vie: 9:00 - 18:00
-                      </p>
+                      <p className="font-medium">{t("home.contact.callme")}</p>
+                      <p className="text-muted-foreground">+1-786-522-4400</p>
                     </div>
                   </motion.div>
 
@@ -76,12 +69,9 @@ export const Footer = () => {
                       <Mail className="h-5 w-5" />
                     </div>
                     <div>
-                      <p className="font-medium">Escríbenos</p>
+                      <p className="font-medium">{t("home.contact.writeme")}</p>
                       <p className="text-muted-foreground">
                         rdqualityinsurance@gmail.com
-                      </p>
-                      <p className="text-xs text-muted-foreground mt-1">
-                        Respuesta en 24 horas
                       </p>
                     </div>
                   </motion.div>
@@ -97,7 +87,7 @@ export const Footer = () => {
                       <MapPin className="h-5 w-5" />
                     </div>
                     <div>
-                      <p className="font-medium">Visítanos</p>
+                      <p className="font-medium">{t("home.contact.visitme")}</p>
                       <p className="text-muted-foreground">
                         1222 SE 47th St Suite 408 Cape Coral,Fl 33990
                       </p>
@@ -115,12 +105,9 @@ export const Footer = () => {
                       <Clock className="h-5 w-5" />
                     </div>
                     <div>
-                      <p className="font-medium">Horario de atención</p>
+                      <p className="font-medium">Time</p>
                       <p className="text-muted-foreground">
-                        Lunes a Viernes: 9:00 - 18:00
-                      </p>
-                      <p className="text-xs text-muted-foreground mt-1">
-                        Sábados: 10:00 - 14:00
+                        {t("home.contact.time")}
                       </p>
                     </div>
                   </motion.div>
@@ -131,28 +118,20 @@ export const Footer = () => {
         </div>
 
         {/* Bottom bar with copyright and legal links */}
-        {/* <div className="pt-8 border-t border-muted-foreground/20 flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="pt-8 border-t border-muted-foreground/20 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            ©2025. Todos los derechos reservados.
+            {t("home.contact.rights")}
           </p>
           <div className="flex flex-wrap justify-center gap-4 text-sm text-muted-foreground">
             <a href="#" className="hover:text-primary transition-colors">
-              Política de Privacidad
+              {t("home.contact.privacyPolicy")}
             </a>
             <span>•</span>
             <a href="#" className="hover:text-primary transition-colors">
-              Términos y Condiciones
-            </a>
-            <span>•</span>
-            <a href="#" className="hover:text-primary transition-colors">
-              Aviso Legal
-            </a>
-            <span>•</span>
-            <a href="#" className="hover:text-primary transition-colors">
-              Cookies
+              {t("home.contact.termsAndConditions")}
             </a>
           </div>
-        </div> */}
+        </div>
       </div>
     </footer>
   );

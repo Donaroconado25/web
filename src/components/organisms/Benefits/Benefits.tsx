@@ -1,30 +1,26 @@
-import { Check, HeartHandshake, Shield, Lightbulb, Users } from "lucide-react";
+"use client";
+
+import { Check } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 export const Benefits = () => {
+  const t = useTranslations();
   const benefits = [
     {
-      icon: <HeartHandshake className="h-12 w-12" />,
-      title: "Compromiso y atención personalizada",
-      description:
-        "Ofrecemos un servicio dedicado y adaptado a las necesidades específicas de cada cliente.",
+      title: "home.benefits.reasonOne.title",
+      description: "home.benefits.reasonOne.description",
     },
     {
-      icon: <Shield className="h-12 w-12" />,
-      title: "Integridad y transparencia",
-      description:
-        "Actuamos con honestidad y claridad en todos nuestros procesos y comunicaciones.",
+      title: "home.benefits.reasonTwo.title",
+      description: "home.benefits.reasonTwo.description",
     },
     {
-      icon: <Lightbulb className="h-12 w-12" />,
-      title: "Innovación en coberturas y tecnología",
-      description:
-        "Implementamos soluciones modernas y coberturas adaptadas al mundo actual.",
+      title: "home.benefits.reasonThree.title",
+      description: "home.benefits.reasonThree.description",
     },
     {
-      icon: <Users className="h-12 w-12" />,
-      title: "Empatía y cercanía con cada cliente",
-      description:
-        "Construimos relaciones cercanas basadas en la comprensión y el apoyo constante.",
+      title: "home.benefits.reasonFour.title",
+      description: "home.benefits.reasonFour.description",
     },
   ];
   return (
@@ -32,11 +28,10 @@ export const Benefits = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold tracking-tight mb-4">
-            ¿Por qué elegirnos?
+            {t("home.benefits.title")}
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-            Descubra las razones por las que somos la mejor opción para proteger
-            lo que más valora.
+            {t("home.benefits.description")}
           </p>
         </div>
 
@@ -59,18 +54,15 @@ export const Benefits = () => {
               {/* Right side with content */}
               <div className="flex-1 bg-card hover:bg-card/80 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-primary/10">
                 <div className="flex items-center gap-4 mb-4">
-                  <div className="p-3 rounded-full bg-primary/10 text-primary">
-                    {benefit.icon}
-                  </div>
                   <div className="flex-1">
                     <div className="flex items-center gap-2">
-                      <Check className="h-6 w-6 text-green-500 flex-shrink-0" />
-                      <h3 className="font-bold text-2xl">{benefit.title}</h3>
+                      <Check className="h-6 w-6 text-red flex-shrink-0" />
+                      <h3 className="font-bold text-2xl">{t(benefit.title)}</h3>
                     </div>
                   </div>
                 </div>
-                <p className="text-muted-foreground text-lg ml-20">
-                  {benefit.description}
+                <p className="text-muted-foreground text-lg ml-8">
+                  {t(benefit.description)}
                 </p>
               </div>
             </div>

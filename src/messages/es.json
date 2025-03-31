@@ -1,11 +1,78 @@
 {
-    "home": {
-        "title": "Protección y tranquilidad para usted y tu familia",
-        "description": "En RD cada paso que da es un paso hacia el futuro, respaldado por la confianza y la protección que se merece",
-        "ctaBtnText": "¡Deseo una consulta gratis!"
+  "navbar": {
+    "home": "Inicio",
+    "about": "Sobre nosotros",
+    "contact": "Contacto",
+    "ctaBtnText": "¡Consulta gratis!"
+  },
+  "home": {
+    "title": "Protección y tranquilidad para usted y tu familia",
+    "description": "En RD cada paso que da es un paso hacia el futuro, respaldado por la confianza y la protección que se merece",
+    "ctaBtnText": "¡Deseo una consulta gratis!",
+    "services": {
+      "title": "Nuestros servicios",
+      "description": "Estamos transformando la forma en que las personas adquieren seguros en el mundo.",
+      "lifeInsurances": {
+        "title": "Seguros de vida",
+        "description": "Protege a tus seres queridos con un seguro de vida que garantiza seguridad financiera en cualquier situación."
+      },
+      "healthInsurances": {
+        "title": "Seguros de salud",
+        "description": "Accede a atención médica de calidad sin preocupaciones económicas con nuestro seguro de salud."
+      },
+      "otherInsurances": {
+        "title": "Seguros complementarios",
+        "description": "Completa tu cobertura con un seguro suplementario para mayor tranquilidad."
+      }
     },
-    "topHeader": {
-        "message": "Consulta gratuita y sin compromiso. Accede a las mejores opciones de seguros de manera rápida y sencilla."
+    "benefits": {
+      "title": "¿Por qué elegirnos?",
+      "description": "Descubra las razones por las que somos la mejor opción para proteger lo que más valora.",
+      "reasonOne": {
+        "title": "Compromiso y atención personalizada",
+        "description": "Ofrecemos un servicio dedicado y adaptado a las necesidades específicas de cada cliente."
+      },
+      "reasonTwo": {
+        "title": "Integridad y transparencia",
+        "description": "Actuamos con honestidad y claridad en todos nuestros procesos y comunicaciones."
+      },
+      "reasonThree": {
+        "title": "Innovación en coberturas y tecnología",
+        "description": "Implementamos soluciones modernas y coberturas adaptadas al mundo actual."
+      },
+      "reasonFour": {
+        "title": "Empatía y cercanía con cada cliente",
+        "description": "Construimos relaciones cercanas basadas en la comprensión y el apoyo constante."
+      }
     },
-    "greeting": "Hola"
+    "testimonials": {
+      "title": "Lo que dicen nuestros clientes",
+      "description": "Descubra por qué nuestros clientes confían en nosotros para proteger lo que más valoran.",
+      "testimonialOne": {
+        "content": "El servicio personalizado que recibí superó todas mis expectativas. Siempre están disponibles cuando los necesito."
+      },
+      "testimonialTwo": {
+        "content": "La transparencia en todo el proceso fue impresionante. No hay sorpresas ni letra pequeña, todo es claro desde el principio."
+      },
+      "testimonialThree": {
+        "content": "Su enfoque innovador hacia los seguros me ha ahorrado tiempo y dinero. La aplicación móvil es increíblemente útil."
+      },
+      "testimonialFour": {
+        "content": "Me sentí comprendido desde la primera consulta. Su equipo realmente se preocupa por entender mis necesidades específicas."
+      }
+    },
+    "contact": {
+      "callme": "Llámanos",
+      "writeme": "Escríbenos",
+      "visitme": "Visítanos",
+      "time": "Lunes a viernes de 9:00 a 18:00",
+      "rights": "@2025 Todos los derechos reservados.",
+      "privacyPolicy": "Política de privacidad",
+      "termsAndConditions": "Términos y condiciones"
+    }
+  },
+  "topHeader": {
+    "message": "Consulta gratuita y sin compromiso. Accede a las mejores opciones de seguros de manera rápida y sencilla."
+  },
+  "greeting": "Hola"
 }

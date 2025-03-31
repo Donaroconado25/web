@@ -3,15 +3,19 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { motion, useScroll } from "framer-motion";
-import { Menu, X } from "lucide-react";
+import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import { cn } from "@/lib/utils";
+import Image from "next/image";
+import Logo from "../../../../public/resources/logotipo.png";
+import { useTranslations } from "next-intl";
 
 export function Navbar() {
   const { scrollY } = useScroll();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const t = useTranslations();
 
   useEffect(() => {
     const unsubscribe = scrollY.onChange((latest) => {
@@ -21,9 +25,9 @@ export function Navbar() {
   }, [scrollY]);
 
   const navLinks = [
-    { name: "Inicio", href: "/" },
-    { name: "Sobre nosotros", href: "/nosotros" },
-    { name: "Contacto", href: "/contacto" },
+    { name: t("navbar.home"), href: "/" },
+    { name: t("navbar.about"), href: "/nosotros" },
+    { name: t("navbar.contact"), href: "/contacto" },
   ];
 
   return (
@@ -37,8 +41,14 @@ export function Navbar() {
       transition={{ duration: 0.3 }}
     >
       <div className="container flex items-center justify-between">
-        <Link href="/" className="font-bold text-2xl text-red">
-          RD Quality Insurance
+        <Link href="/">
+          <Image
+            src={Logo}
+            alt="RD Quality Insurance Logo"
+            width={50}
+            height={50}
+            className="h-auto"
+          />
         </Link>
 
         {/* Desktop Navigation */}
@@ -56,7 +66,7 @@ export function Navbar() {
             </Link>
           ))}
           <Button className="bg-red hover:bg-red/90 text-white">
-            ¡Consulta gratis!
+            {t("navbar.ctaBtnText")}
           </Button>
         </nav>
 
@@ -72,25 +82,11 @@ export function Navbar() {
               <span className="sr-only">Toggle menu</span>
             </Button>
           </SheetTrigger>
-          <SheetContent side="right" className="w-[80%] sm:w-[350px]">
+          <SheetContent side="right" className="w-[80%] p-5">
+            <SheetTitle className="text-lg">
+              Menu
+            </SheetTitle>
             <div className="flex flex-col h-full">
-              <div className="flex justify-between items-center mb-8">
-                <Link
-                  href="/"
-                  className="font-bold text-2xl text-red"
-                  onClick={() => setIsMobileMenuOpen(false)}
-                >
-                  RD Quality Insurance
-                </Link>
-                <Button
-                  variant="ghost"
-                  size="icon"
-                  onClick={() => setIsMobileMenuOpen(false)}
-                >
-                  <X className="h-6 w-6" />
-                  <span className="sr-only">Close menu</span>
-                </Button>
-              </div>
               <nav className="flex flex-col space-y-6">
                 {navLinks.map((link) => (
                   <Link

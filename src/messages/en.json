@@ -1,11 +1,78 @@
 {
-    "home": {
-        "title": "Protection and peace of mind for you and your family.",
-        "description": "In RD, every step you take is a step toward the future, backed by the trust and protection you deserve.",
-         "ctaBtnText": "Get a free consultation!"
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "ctaBtnText": "¡Get a free consultation!"
+  },
+  "home": {
+    "title": "Protection and peace of mind for you and your family.",
+    "description": "In RD, every step you take is a step toward the future, backed by the trust and protection you deserve.",
+    "ctaBtnText": "Get a free consultation!",
+    "services": {
+      "title": "Our Services",
+      "description": "We are transforming the way people acquire insurance worldwide.",
+      "lifeInsurances": {
+        "title": "Life Insurance",
+        "description": "Protect your loved ones with a life insurance policy that ensures financial security in any situation."
+      },
+      "healthInsurances": {
+        "title": "Health Insurance",
+        "description": "Access quality medical care without financial worries with our health insurance."
+      },
+      "otherInsurances": {
+        "title": "Supplementary Insurance",
+        "description": "Enhance your coverage with supplementary insurance for greater peace of mind."
+      }
     },
-    "topHeader": {
-        "message": "Free consultation with no obligation. Access the best insurance options quickly and easily."
+    "benefits": {
+      "title": "Why Choose Us?",
+      "description": "Discover the reasons why we are the best option to protect what you value most.",
+      "reasonOne": {
+        "title": "Commitment and Personalized Attention",
+        "description": "We offer dedicated service tailored to the specific needs of each client."
+      },
+      "reasonTwo": {
+        "title": "Integrity and Transparency",
+        "description": "We act with honesty and clarity in all our processes and communications."
+      },
+      "reasonThree": {
+        "title": "Innovation in Coverage and Technology",
+        "description": "We implement modern solutions and coverage adapted to the current world."
+      },
+      "reasonFour": {
+        "title": "Empathy and Closeness with Every Client",
+        "description": "We build close relationships based on understanding and constant support."
+      }
     },
-    "greeting": "hello"
+    "testimonials": {
+      "title": "What Our Clients Say",
+      "description": "Discover why our clients trust us to protect what they value most.",
+      "testimonialOne": {
+        "content": "The personalized service I received exceeded all my expectations. They are always available when I need them."
+      },
+      "testimonialTwo": {
+        "content": "The transparency throughout the process was impressive. There are no surprises or fine print; everything is clear from the start."
+      },
+      "testimonialThree": {
+        "content": "Their innovative approach to insurance has saved me time and money. The mobile app is incredibly useful."
+      },
+      "testimonialFour": {
+        "content": "I felt understood from the first consultation. Their team truly cares about understanding my specific needs."
+      }
+    },
+    "contact": {
+      "callme": "Call Us",
+      "writeme": "Write to Us",
+      "visitme": "Visit Us",
+      "time": "Monday to Friday from 9:00 AM to 6:00 PM",
+      "rights": "@2025 All rights reserved.",
+      "privacyPolicy": "Privacy Policy",
+      "termsAndConditions": "Terms and Conditions"
+    }
+  },
+  "topHeader": {
+    "message": "Free consultation with no obligation. Access the best insurance options quickly and easily."
+  },
+  "greeting": "hello"
 }

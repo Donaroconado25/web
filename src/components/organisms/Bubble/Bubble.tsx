@@ -4,7 +4,7 @@ import { useState } from "react";
 import { MessageSquare, Globe, Menu } from "lucide-react";
 import { usePathname, useRouter } from "next/navigation";
 
-const phoneNumber = "+1234567890";
+const phoneNumber = "+17865224400";
 const message = "Hello! How can I help you?";
 
 export const Bubble = () => {
