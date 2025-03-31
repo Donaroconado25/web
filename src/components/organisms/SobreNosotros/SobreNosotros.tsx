@@ -1,6 +1,6 @@
 export const SobreNosotros = () => {
   return (
-    <section className="py-12">
+    <section className="mt-20 py-12">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-12 text-center">
           <h2 className="mb-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">

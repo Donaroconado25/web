@@ -5,35 +5,7 @@ import { Phone, Mail, MapPin, Clock, Shield } from "lucide-react";
 
 export const Footer = () => {
   return (
-    <footer className="relative pt-20 pb-10 overflow-hidden bg-gradient-to-b from-background to-primary/10">
-      {/* Decorative elements */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute -right-20 -top-20 w-[600px] h-[600px] rounded-full bg-primary/5 blur-3xl"></div>
-        <div className="absolute -left-20 bottom-0 w-[400px] h-[400px] rounded-full bg-primary/5 blur-3xl"></div>
-
-        <motion.div
-          className="absolute right-[10%] top-[15%] text-primary/10"
-          animate={{
-            rotate: 360,
-            scale: [1, 1.05, 1],
-          }}
-          transition={{
-            rotate: {
-              duration: 40,
-              repeat: Number.POSITIVE_INFINITY,
-              ease: "linear",
-            },
-            scale: {
-              duration: 5,
-              repeat: Number.POSITIVE_INFINITY,
-              repeatType: "reverse",
-            },
-          }}
-        >
-          <Shield className="w-40 h-40" />
-        </motion.div>
-      </div>
-
+    <footer className="relative mt-40 pb-10 overflow-hidden bg-gradient-to-b from-background to-primary/10">
       {/* Main footer content */}
       <div className="container mx-auto px-4 relative z-10">
         {/* Contact card */}
@@ -159,7 +131,7 @@ export const Footer = () => {
         </div>
 
         {/* Bottom bar with copyright and legal links */}
-        <div className="pt-8 border-t border-muted-foreground/20 flex flex-col md:flex-row justify-between items-center gap-4">
+        {/* <div className="pt-8 border-t border-muted-foreground/20 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
             ©2025. Todos los derechos reservados.
           </p>
@@ -180,7 +152,7 @@ export const Footer = () => {
               Cookies
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     </footer>
   );

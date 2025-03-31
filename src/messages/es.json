@@ -1,4 +1,9 @@
 {
+    "home": {
+        "title": "Protección y tranquilidad para usted y tu familia",
+        "description": "En RD cada paso que da es un paso hacia el futuro, respaldado por la confianza y la protección que se merece",
+        "ctaBtnText": "¡Deseo una consulta gratis!"
+    },
     "topHeader": {
         "message": "Consulta gratuita y sin compromiso. Accede a las mejores opciones de seguros de manera rápida y sencilla."
     },
