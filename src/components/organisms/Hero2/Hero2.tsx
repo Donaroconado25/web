@@ -1,6 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 export const Hero2 = () => {
   const t = useTranslations();
@@ -21,9 +22,9 @@ export const Hero2 = () => {
           {t("home.description")}
         </p>
         <div className="flex gap-5 items-center">
-          <button className="cursor-pointer font-bold bg-red hover:shadow-lg transition-all text-white p-2 rounded-lg">
+          <Link href="https://wa.me/+17865224400" className="cursor-pointer font-bold bg-red hover:shadow-lg transition-all text-white p-2 rounded-lg">
             {t("home.ctaBtnText")}
-          </button>
+          </Link>
         </div>
       </div>
     </div>

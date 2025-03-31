@@ -3,6 +3,8 @@ import type React from "react";
 import ILife from "../../../../public/resources/icons/ilife.svg";
 import IHealth from "../../../../public/resources/icons/ihealth.svg";
 import IOther from "../../../../public/resources/icons/iother.svg";
+import IVision from "../../../../public/resources/icons/ivision.svg";
+import IAccident from "../../../../public/resources/icons/iaccident.svg";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 
@@ -48,6 +50,16 @@ export const Services = () => {
       title: "home.services.otherInsurances.title",
       description: "home.services.otherInsurances.description",
     },
+    {
+      icon: IVision,
+      title: "home.services.visionInsurances.title",
+      description: "home.services.visionInsurances.description",
+    },
+    {
+      icon: IAccident,
+      title: "home.services.accidentInsurances.title",
+      description: "home.services.accidentInsurances.description",
+    }
   ];
 
   return (

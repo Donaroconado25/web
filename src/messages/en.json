@@ -20,6 +20,14 @@
         "title": "Health Insurance",
         "description": "Access quality medical care without financial worries with our health insurance."
       },
+      "visionInsurances": {
+        "title": "Vision Insurance",
+        "description": "Take care of your eye health with an insurance that covers exams and eye treatments."
+      },
+      "accidentInsurances": {
+        "title": "Accident Insurance",
+        "description": "Protect your family against any eventuality with an accident insurance that covers medical expenses and more."
+      },
       "otherInsurances": {
         "title": "Supplementary Insurance",
         "description": "Enhance your coverage with supplementary insurance for greater peace of mind."

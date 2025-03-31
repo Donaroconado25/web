@@ -5,7 +5,12 @@ import Link from "next/link";
 import { motion, useScroll } from "framer-motion";
 import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
+import {
+  Sheet,
+  SheetContent,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Logo from "../../../../public/resources/logotipo.png";
@@ -66,7 +71,9 @@ export function Navbar() {
             </Link>
           ))}
           <Button className="bg-red hover:bg-red/90 text-white">
-            {t("navbar.ctaBtnText")}
+            <Link href="https://wa.me/+17865224400">
+              {t("navbar.ctaBtnText")}
+            </Link>
           </Button>
         </nav>
 
@@ -83,9 +90,7 @@ export function Navbar() {
             </Button>
           </SheetTrigger>
           <SheetContent side="right" className="w-[80%] p-5">
-            <SheetTitle className="text-lg">
-              Menu
-            </SheetTitle>
+            <SheetTitle className="text-lg">Menu</SheetTitle>
             <div className="flex flex-col h-full">
               <nav className="flex flex-col space-y-6">
                 {navLinks.map((link) => (

@@ -6,7 +6,7 @@
     "ctaBtnText": "¡Consulta gratis!"
   },
   "home": {
-    "title": "Protección y tranquilidad para usted y tu familia",
+    "title": "Protección y tranquilidad para usted y su familia",
     "description": "En RD cada paso que da es un paso hacia el futuro, respaldado por la confianza y la protección que se merece",
     "ctaBtnText": "¡Deseo una consulta gratis!",
     "services": {
@@ -19,6 +19,14 @@
       "healthInsurances": {
         "title": "Seguros de salud",
         "description": "Accede a atención médica de calidad sin preocupaciones económicas con nuestro seguro de salud."
+      },
+      "visionInsurances": {
+        "title": "Seguros de visión",
+        "description": "Cuida de tu salud visual con un seguro que cubre exámenes y tratamientos oculares."
+      },
+      "accidentInsurances": {
+        "title": "Seguros de accidentes",
+        "description": "Protege a tu familia ante cualquier eventualidad con un seguro de accidentes que cubre gastos médicos y más."
       },
       "otherInsurances": {
         "title": "Seguros complementarios",
