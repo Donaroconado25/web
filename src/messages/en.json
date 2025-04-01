@@ -80,8 +80,35 @@
       "termsAndConditions": "Terms and Conditions"
     }
   },
-  "topHeader": {
-    "message": "Free consultation with no obligation. Access the best insurance options quickly and easily."
+  "about": {
+    "title": "About Us",
+    "description": "We want to stay connected with you, and that's why it's important for you to get to know us better.",
+    "mision": {
+      "title": "Our Mission",
+      "description": "At RD Quality Insurance, we are committed to providing peace of mind and security to our clients. We offer a wide range of life, health, and supplemental insurance plans designed to meet the needs of every individual and family. Our goal is to be a constant support during life's most important and challenging moments, ensuring that our clients are protected against any unforeseen circumstances."
+    },
+    "values": {
+      "title": "Our Values",
+      "description": "At RD Quality Insurance, we are guided by essential values that define us. We are committed to providing exceptional service tailored to each client, ensuring solutions that meet their needs. Transparency and honesty are the pillars of our relationships, fostering trust and security. We embrace innovation, continuously improving our products and services. Additionally, our empathy allows us to connect genuinely with each person, offering a warm and understanding approach at all times."
+    }
   },
-  "greeting": "hello"
+  "history": {
+    "sub": "Our Essence",
+    "title": "Our History and Journey",
+    "goal": {
+      "title": "Our Goal",
+      "description": "From day one, our goal has been clear: to support families at every stage of their journey with flexible products tailored to their evolving needs. Inspired by values of integrity, commitment, and closeness, we have developed insurance solutions that meet the highest market standards and create a positive impact on our clients' lives."
+    },
+    "team": {
+      "title": "Our Team",
+      "description": "Every policy we offer is the result of the efforts of a multidisciplinary team dedicated to innovating in the world of protection and well-being. Our history is built day by day through:",
+      "itemOne": "Strategic partnerships with prestigious institutions.",
+      "itemTwo": "Cutting-edge technology for agile and efficient management.",
+      "itemThree": "A deep understanding of our clients' needs."
+    },
+    "commitment": {
+      "title": "Our Commitment",
+      "description": "We understand that every person is unique, which is why our solutions are designed to provide the peace of mind and support they deserve. We are committed to being present in every important moment, offering a personalized and caring service that adapts to our clients' changing needs."
+    }
+  }
 }

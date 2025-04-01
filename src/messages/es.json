@@ -80,8 +80,35 @@
       "termsAndConditions": "Términos y condiciones"
     }
   },
-  "topHeader": {
-    "message": "Consulta gratuita y sin compromiso. Accede a las mejores opciones de seguros de manera rápida y sencilla."
+  "about": {
+    "title": "Sobre nosotros",
+    "description": "Queremos estar conectados a ti y por eso es importante que nos conozcas un poco más.",
+    "mision": {
+      "title": "Nuestra misión",
+      "description": "En RD Quality Insurance , nos comprometemos a brindar tranquilidad y seguridad a nuestros clientes. Ofrecemos una amplia gama de seguros de vida, salud y seguros suplementarios diseñados para adaptarse a las necesidades de cada individuo y familia. Nuestro objetivo es ser un apoyo constante en los momentos más importantes y desafiantes de la vida, garantizando que nuestros clientes estén protegidos frente a cualquier imprevisto."
+    },
+    "values": {
+      "title": "Nuestros valores",
+      "description": "En RD Quality Insurance, nos guiamos por valores esenciales que nos definen. Nos comprometemos a brindar un servicio excepcional y adaptado a cada cliente, garantizando soluciones que se ajusten a sus necesidades. La transparencia y la honestidad son pilares de nuestra relación, generando confianza y seguridad. Apostamos por la innovación, mejorando continuamente nuestros productos y servicios. Además, nuestra empatía nos permite conectar de manera genuina con cada persona, ofreciendo un trato cercano y comprensivo en todo momento."
+    }
   },
-  "greeting": "Hola"
+  "history": {
+    "sub": "Nuestra esencia",
+    "title": "Nuestra historia y trayectoria",
+    "goal": {
+      "title": "Nuestra meta",
+      "description": "Desde el primer día, nuestra meta ha sido clara: acompañar a las familias en cada etapa de su camino con productos flexibles y adaptados a sus necesidades cambiantes. Inspirados por valores de integridad, compromiso y cercanía, hemos desarrollado seguros que cumplen con los más altos estándares del mercado y generan un impacto positivo en la vida de nuestros clientes."
+    },
+    "team": {
+      "title": "Nuestro equipo",
+      "description": "Cada póliza que ofrecemos es el resultado del esfuerzo de un equipo multidisciplinario que trabaja para innovar en el mundo de la protección y el bienestar. Nuestra historia se construye día a día a través de:",
+      "itemOne": "Alianzas estratégicas con instituciones de prestigio.",
+      "itemTwo": "Tecnología de punta para una gestión ágil y eficiente.",
+      "itemThree": "Un profundo entendimiento de las necesidades de nuestros clientes."
+    },
+    "commitment": {
+      "title": "Nuestro compromiso",
+      "description": "Sabemos que cada persona es única, y por ello, nuestras soluciones están diseñadas para brindar la tranquilidad y el respaldo que merecen. Nos comprometemos a estar presentes en cada momento importante, ofreciendo un servicio personalizado y cercano que se adapta a las necesidades cambiantes de nuestros clientes."
+    }
+  }
 }

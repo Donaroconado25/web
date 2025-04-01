@@ -5,8 +5,10 @@ import { motion, useInView } from "framer-motion";
 import { CheckCircle2 } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { useTranslations } from "next-intl";
 
 export default function HistoriaTrayectoria() {
+  const t = useTranslations();
   const containerRef = useRef(null);
   const isInView = useInView(containerRef, { once: false, amount: 0.2 });
 
@@ -62,10 +64,10 @@ export default function HistoriaTrayectoria() {
             variant="outline"
             className="mb-4 px-4 py-1 text-sm font-medium"
           >
-            Nuestra Esencia
+            {t("history.sub")}
           </Badge>
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-primary to-red">
-            Nuestra Historia y Trayectoria
+            {t("history.title")}
           </h2>
           <div className="w-24 h-1 bg-primary mx-auto rounded-full mb-6"></div>
         </motion.div>
@@ -100,7 +102,7 @@ export default function HistoriaTrayectoria() {
                         className="text-center"
                       >
                         <h3 className="text-2xl font-bold text-red">
-                          Nuestra Meta
+                          {t("history.goal.title")}
                         </h3>
                       </motion.div>
                     </div>
@@ -111,14 +113,7 @@ export default function HistoriaTrayectoria() {
                         transition={{ duration: 0.8, delay: 0.7 }}
                         className="text-slate-700 leading-relaxed"
                       >
-                        Desde el primer día, nuestra meta ha sido clara:
-                        acompañar a las familias en cada etapa de su camino con
-                        productos flexibles y adaptados a sus necesidades
-                        cambiantes. Inspirados por valores de integridad,
-                        compromiso y cercanía, hemos desarrollado seguros que
-                        cumplen con los más altos estándares del mercado y
-                        generan un impacto positivo en la vida de nuestros
-                        clientes.
+                        {t("history.goal.description")}
                       </motion.p>
                     </div>
                   </div>
@@ -145,17 +140,14 @@ export default function HistoriaTrayectoria() {
                         transition={{ duration: 0.8, delay: 0.7 }}
                         className="text-slate-700 leading-relaxed"
                       >
-                        Cada póliza que ofrecemos es el resultado del esfuerzo
-                        de un equipo multidisciplinario que trabaja para innovar
-                        en el mundo de la protección y el bienestar. Nuestra
-                        historia se construye día a día a través de:
+                        {t("history.team.description")}
                       </motion.p>
 
                       <ul className="mt-6 space-y-3">
                         {[
-                          "Alianzas estratégicas con instituciones de prestigio.",
-                          "Tecnología de punta para una gestión ágil y eficiente.",
-                          "Un profundo entendimiento de las necesidades de nuestros clientes.",
+                          t("history.team.itemOne"),
+                          t("history.team.itemTwo"),
+                          t("history.team.itemThree"),
                         ].map((item, i) => (
                           <motion.li
                             key={i}
@@ -177,7 +169,7 @@ export default function HistoriaTrayectoria() {
                         className="text-center"
                       >
                         <h3 className="text-2xl font-bold text-red">
-                          Nuestro Equipo
+                          {t("history.team.title")}
                         </h3>
                       </motion.div>
                     </div>
@@ -206,7 +198,7 @@ export default function HistoriaTrayectoria() {
                         className="text-center"
                       >
                         <h3 className="text-2xl font-bold text-red">
-                          Nuestro Compromiso
+                          {t("history.commitment.title")}
                         </h3>
                       </motion.div>
                     </div>
@@ -217,12 +209,7 @@ export default function HistoriaTrayectoria() {
                         transition={{ duration: 0.8, delay: 0.7 }}
                         className="text-slate-700 leading-relaxed"
                       >
-                        Sabemos que cada persona es única, y por ello, nuestras
-                        soluciones están diseñadas para brindar la tranquilidad
-                        y el respaldo que merecen. Nos comprometemos a estar
-                        presentes en cada momento importante, ofreciendo un
-                        servicio personalizado y cercano que se adapta a las
-                        necesidades cambiantes de nuestros clientes.
+                        {t("history.commitment.description")}
                       </motion.p>
                     </div>
                   </div>

@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import "./globals.css";
 import { Navbar } from "@/components/organisms/Navbar/Navbar";
+import { Bubble } from "@/components/organisms";
 
 export default async function LocaleLayout({
   children,
@@ -23,6 +24,7 @@ export default async function LocaleLayout({
         <NextIntlClientProvider>
           <Navbar />
           {children}
+          <Bubble />
         </NextIntlClientProvider>
       </body>
     </html>

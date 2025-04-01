@@ -1,6 +1,5 @@
 import {
   Benefits,
-  Bubble,
   Footer,
   Hero2,
   Services,
@@ -14,9 +13,7 @@ export default function Home() {
       <Services />
       <Benefits />
       <Testimonials />
-      {/* <Cta /> */}
       <Footer />
-      <Bubble />
     </main>
   );
 }
