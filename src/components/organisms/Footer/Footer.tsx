@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 export const Footer = () => {
   const t = useTranslations();
@@ -119,9 +120,9 @@ export const Footer = () => {
 
         {/* Bottom bar with copyright and legal links */}
         <div className="pt-8 border-t border-muted-foreground/20 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-muted-foreground">
+          <Link href="https://www.linkedin.com/in/brayan-yepesc/" target="_blank" className="text-sm text-muted-foreground">
             {t("home.contact.rights")}
-          </p>
+          </Link>
           <div className="flex flex-wrap justify-center gap-4 text-sm text-muted-foreground">
             <a href="#" className="hover:text-primary transition-colors">
               {t("home.contact.privacyPolicy")}
