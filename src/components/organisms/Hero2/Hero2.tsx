@@ -22,7 +22,7 @@ export const Hero2 = () => {
           {t("home.description")}
         </p>
         <div className="flex gap-5 items-center">
-          <Link href="https://wa.me/+17865224400" className="cursor-pointer font-bold bg-red hover:shadow-lg transition-all text-white p-2 rounded-lg">
+          <Link target="_blank" href="https://wa.me/+17865224400" className="cursor-pointer font-bold bg-red hover:shadow-lg transition-all text-white p-2 rounded-lg">
             {t("home.ctaBtnText")}
           </Link>
         </div>

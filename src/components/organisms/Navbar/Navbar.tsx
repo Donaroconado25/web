@@ -33,6 +33,7 @@ export function Navbar() {
     { name: t("navbar.home"), href: "/" },
     { name: t("navbar.about"), href: "/nosotros" },
     { name: t("navbar.contact"), href: "/contacto" },
+    { name: t("navbar.history"), href: "/historia" },
   ];
 
   return (
@@ -71,7 +72,7 @@ export function Navbar() {
             </Link>
           ))}
           <Button className="bg-red hover:bg-red/90 text-white">
-            <Link href="https://wa.me/+17865224400">
+            <Link target="_blank" href="https://wa.me/+17865224400">
               {t("navbar.ctaBtnText")}
             </Link>
           </Button>

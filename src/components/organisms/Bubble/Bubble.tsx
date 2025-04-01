@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { MessageSquare, Globe, Menu } from "lucide-react";
+import { MessageSquare, Menu } from "lucide-react";
 import { usePathname, useRouter } from "next/navigation";
 
 const phoneNumber = "+17865224400";
@@ -27,6 +27,8 @@ export const Bubble = () => {
     window.open(whatsappUrl, "_blank");
   };
 
+  const currentLocale = pathname.startsWith("/es") ? "es" : "en";
+  const newLocale = currentLocale === "en" ? "es" : "en";
   return (
     <div className="fixed bottom-5 right-5 z-50 flex flex-col items-end gap-3">
       {/* Opciones desplegables */}
@@ -45,14 +47,14 @@ export const Bubble = () => {
           onClick={toggleLanguage}
           className="flex h-12 w-12 items-center justify-center rounded-full bg-blue-600 text-white shadow-lg transition-transform hover:scale-110"
         >
-          <Globe className="h-5 w-5" />
+          {newLocale.toUpperCase()}
         </button>
       </div>
 
       {/* Botón principal */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex h-14 w-14 items-center justify-center rounded-full bg-black text-white shadow-lg transition-all hover:scale-110"
+        className="flex h-14 w-14 items-center justify-center rounded-full bg-red text-white shadow-lg transition-all hover:scale-110"
       >
         <Menu className="h-6 w-6" />
       </button>

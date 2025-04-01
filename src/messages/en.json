@@ -3,12 +3,13 @@
     "home": "Home",
     "about": "About",
     "contact": "Contact",
+    "history": "History",
     "ctaBtnText": "¡Get a free consultation!"
   },
   "home": {
     "title": "Protection and peace of mind for you and your family.",
     "description": "In RD, every step you take is a step toward the future, backed by the trust and protection you deserve.",
-    "ctaBtnText": "Get a free consultation!",
+    "ctaBtnText": "A free consultation?",
     "services": {
       "title": "Our Services",
       "description": "We are transforming the way people acquire insurance worldwide.",
