@@ -47,7 +47,7 @@ export function Navbar() {
       transition={{ duration: 0.3 }}
     >
       <div className="container flex items-center justify-between">
-        <Link href="/">
+        <Link href="/" className="flex justify-center items-center gap-2">
           <Image
             src={Logo}
             alt="RD Quality Insurance Logo"
@@ -55,6 +55,7 @@ export function Navbar() {
             height={50}
             className="h-auto"
           />
+          <span className="text-red font-bold text-xl">Quality Insurance</span>
         </Link>
 
         {/* Desktop Navigation */}
