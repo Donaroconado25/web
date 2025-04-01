@@ -106,7 +106,7 @@ export const Footer = () => {
                       <Clock className="h-5 w-5" />
                     </div>
                     <div>
-                      <p className="font-medium">Time</p>
+                      <p className="font-medium">{t("home.contact.timeTitle")}</p>
                       <p className="text-muted-foreground">
                         {t("home.contact.time")}
                       </p>
