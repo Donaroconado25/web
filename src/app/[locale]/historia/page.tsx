@@ -87,7 +87,7 @@ export default function HistoriaTrayectoria() {
               <div className="absolute left-1/2 transform -translate-x-1/2 -mt-4">
                 <motion.div
                   variants={iconVariants}
-                  className="w-12 h-12 rounded-full bg-primary flex items-center justify-center shadow-lg shadow-primary/20"
+                  className="w-12 h-12 rounded-full bg-red flex items-center justify-center shadow-lg shadow-primary/20"
                 ></motion.div>
               </div>
 
@@ -126,7 +126,7 @@ export default function HistoriaTrayectoria() {
               <div className="absolute left-1/2 transform -translate-x-1/2 -mt-4">
                 <motion.div
                   variants={iconVariants}
-                  className="w-12 h-12 rounded-full bg-primary flex items-center justify-center shadow-lg shadow-primary/20"
+                  className="w-12 h-12 rounded-full bg-red flex items-center justify-center shadow-lg shadow-primary/20"
                 ></motion.div>
               </div>
 
@@ -183,7 +183,7 @@ export default function HistoriaTrayectoria() {
               <div className="absolute left-1/2 transform -translate-x-1/2 -mt-4">
                 <motion.div
                   variants={iconVariants}
-                  className="w-12 h-12 rounded-full bg-primary flex items-center justify-center shadow-lg shadow-primary/20"
+                  className="w-12 h-12 rounded-full bg-red flex items-center justify-center shadow-lg shadow-primary/20"
                 ></motion.div>
               </div>
 
@@ -218,19 +218,6 @@ export default function HistoriaTrayectoria() {
             </motion.div>
           </motion.div>
         </div>
-
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 1.2 }}
-          className="mt-20 text-center"
-        >
-          <div className="inline-block p-1 bg-gradient-to-r from-primary to-red rounded-full">
-            <button className="px-8 py-3 bg-white rounded-full text-primary font-medium hover:bg-transparent hover:text-white transition-colors duration-300">
-              Conoce más sobre nosotros
-            </button>
-          </div>
-        </motion.div>
       </div>
     </section>
   );
