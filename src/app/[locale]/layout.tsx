@@ -4,6 +4,12 @@ import { routing } from "@/i18n/routing";
 import "./globals.css";
 import { Navbar } from "@/components/organisms/Navbar/Navbar";
 import { Bubble } from "@/components/organisms";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'RD Quality Insurance',
+  description: 'Seguros - Protección y tranquilidad para usted y su familia',
+}
 
 export default async function LocaleLayout({
   children,
