@@ -12,8 +12,6 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { cn } from "@/lib/utils";
-import Image from "next/image";
-import Logo from "../../../../public/resources/logotipo.png";
 import { useTranslations } from "next-intl";
 
 export function Navbar() {
@@ -48,13 +46,13 @@ export function Navbar() {
     >
       <div className="container flex items-center justify-between">
         <Link href="/" className="flex justify-center items-center gap-2">
-          <Image
+          {/* <Image
             src={Logo}
             alt="RD Quality Insurance Logo"
             width={50}
             height={50}
             className="h-auto"
-          />
+          /> */}
           <span className="text-red font-bold text-xl">Quality Insurance</span>
         </Link>
 
