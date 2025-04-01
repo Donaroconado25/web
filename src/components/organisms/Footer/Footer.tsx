@@ -50,8 +50,8 @@ export const Footer = () => {
                     viewport={{ once: true }}
                     transition={{ duration: 0.5, delay: 0.1 }}
                   >
-                    <div className="bg-primary/10 p-3 rounded-full text-primary">
-                      <Phone className="h-5 w-5" />
+                    <div className="bg-red p-3 rounded-full text-primary">
+                      <Phone className="h-5 w-5 text-white" />
                     </div>
                     <div>
                       <p className="font-medium">{t("home.contact.callme")}</p>
@@ -66,8 +66,8 @@ export const Footer = () => {
                     viewport={{ once: true }}
                     transition={{ duration: 0.5, delay: 0.2 }}
                   >
-                    <div className="bg-primary/10 p-3 rounded-full text-primary">
-                      <Mail className="h-5 w-5" />
+                    <div className="bg-red p-3 rounded-full text-primary">
+                      <Mail className="h-5 w-5 text-white" />
                     </div>
                     <div>
                       <p className="font-medium">{t("home.contact.writeme")}</p>
@@ -84,8 +84,8 @@ export const Footer = () => {
                     viewport={{ once: true }}
                     transition={{ duration: 0.5, delay: 0.3 }}
                   >
-                    <div className="bg-primary/10 p-3 rounded-full text-primary">
-                      <MapPin className="h-5 w-5" />
+                    <div className="bg-red p-3 rounded-full text-primary">
+                      <MapPin className="h-5 w-5 text-white" />
                     </div>
                     <div>
                       <p className="font-medium">{t("home.contact.visitme")}</p>
@@ -102,8 +102,8 @@ export const Footer = () => {
                     viewport={{ once: true }}
                     transition={{ duration: 0.5, delay: 0.4 }}
                   >
-                    <div className="bg-primary/10 p-3 rounded-full text-primary">
-                      <Clock className="h-5 w-5" />
+                    <div className="bg-red p-3 rounded-full text-primary">
+                      <Clock className="h-5 w-5 text-white" />
                     </div>
                     <div>
                       <p className="font-medium">{t("home.contact.timeTitle")}</p>
