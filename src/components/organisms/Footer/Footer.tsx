@@ -122,13 +122,11 @@ export const Footer = () => {
 
         {/* Bottom bar with copyright, legal links, and social media */}
         <div className="pt-8 border-t border-muted-foreground/20 flex flex-col md:flex-row justify-between items-center gap-4">
-          <Link
-            href="https://www.linkedin.com/in/brayan-yepesc/"
-            target="_blank"
+          <span
             className="text-sm text-muted-foreground"
           >
             {t("home.contact.rights")}
-          </Link>
+          </span>
 
           {/* Social media links */}
           <div className="flex items-center gap-4">
