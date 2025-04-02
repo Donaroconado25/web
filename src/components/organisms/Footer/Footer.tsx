@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, Instagram } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 
@@ -72,7 +72,7 @@ export const Footer = () => {
                     <div>
                       <p className="font-medium">{t("home.contact.writeme")}</p>
                       <p className="text-muted-foreground">
-                        rdqualityinsurance@gmail.com
+                        info@rdqualityinsurance.com
                       </p>
                     </div>
                   </motion.div>
@@ -106,7 +106,9 @@ export const Footer = () => {
                       <Clock className="h-5 w-5 text-white" />
                     </div>
                     <div>
-                      <p className="font-medium">{t("home.contact.timeTitle")}</p>
+                      <p className="font-medium">
+                        {t("home.contact.timeTitle")}
+                      </p>
                       <p className="text-muted-foreground">
                         {t("home.contact.time")}
                       </p>
@@ -118,11 +120,60 @@ export const Footer = () => {
           </motion.div>
         </div>
 
-        {/* Bottom bar with copyright and legal links */}
+        {/* Bottom bar with copyright, legal links, and social media */}
         <div className="pt-8 border-t border-muted-foreground/20 flex flex-col md:flex-row justify-between items-center gap-4">
-          <Link href="https://www.linkedin.com/in/brayan-yepesc/" target="_blank" className="text-sm text-muted-foreground">
+          <Link
+            href="https://www.linkedin.com/in/brayan-yepesc/"
+            target="_blank"
+            className="text-sm text-muted-foreground"
+          >
             {t("home.contact.rights")}
           </Link>
+
+          {/* Social media links */}
+          <div className="flex items-center gap-4">
+            <motion.a
+              href="https://www.tiktok.com/@rd.quality.insura?_t=ZS-8vCiKbO1ywq&_r=1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-red p-2 rounded-full text-white hover:bg-red/80 transition-colors"
+              initial={{ scale: 0.8, opacity: 0 }}
+              whileInView={{ scale: 1, opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.3 }}
+              whileHover={{ scale: 1.1 }}
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="lucide lucide-brand-tiktok"
+              >
+                <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path>
+              </svg>
+            </motion.a>
+
+            <motion.a
+              href="https://www.instagram.com/rdqualityinsurance?igsh=Y2FrNTVidmtvenM0&utm_source=qr"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-red p-2 rounded-full text-white hover:bg-red/80 transition-colors"
+              initial={{ scale: 0.8, opacity: 0 }}
+              whileInView={{ scale: 1, opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.3, delay: 0.1 }}
+              whileHover={{ scale: 1.1 }}
+            >
+              <Instagram className="h-5 w-5" />
+            </motion.a>
+          </div>
+
           <div className="flex flex-wrap justify-center gap-4 text-sm text-muted-foreground">
             <a href="#" className="hover:text-primary transition-colors">
               {t("home.contact.privacyPolicy")}
