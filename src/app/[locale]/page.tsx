@@ -1,5 +1,6 @@
 import {
   Benefits,
+  Clients,
   Footer,
   Hero2,
   Services,
@@ -10,6 +11,7 @@ export default function Home() {
   return (
     <main className="w-full min-h-screen">
       <Hero2 />
+      <Clients />
       <Services />
       <Benefits />
       <Testimonials />
