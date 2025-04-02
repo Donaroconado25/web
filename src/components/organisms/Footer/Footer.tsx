@@ -56,6 +56,7 @@ export const Footer = () => {
                     <div>
                       <p className="font-medium">{t("home.contact.callme")}</p>
                       <p className="text-muted-foreground">+1-786-522-4400</p>
+                      <p className="text-muted-foreground">+1-877-231-1888</p>
                     </div>
                   </motion.div>
 
