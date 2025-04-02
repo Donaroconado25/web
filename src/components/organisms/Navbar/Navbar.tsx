@@ -53,7 +53,7 @@ export function Navbar() {
             height={50}
             className="h-auto"
           /> */}
-          <span className={cn("font-bold text-xl transition-all", isScrolled ? "text-black" : "text-red")}>Quality Insurance</span>
+          <span className={cn("font-bold text-xl transition-all", isScrolled ? "text-black" : "text-red")}>RD</span>
         </Link>
 
         {/* Desktop Navigation */}

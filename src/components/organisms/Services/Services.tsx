@@ -21,8 +21,8 @@ const Service = ({ icon, title, description }: ServiceProps) => {
     <div className="flex h-full flex-col rounded-lg border border-gray bg-gray-50 p-6 shadow-sm transition-all hover:shadow-md">
       <div className="mb-4">
         <div className="flex justify-start gap-4 items-center">
-          <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-light text-red">
-            <Image src={icon} alt={title} width={80} height={80} />
+          <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-red text-white">
+            <Image className="text-white fill-white" src={icon} alt={title} width={80} height={80} />
           </div>
           <h3 className="mb-2 text-xl font-semibold text-black">{t(title)}</h3>
         </div>

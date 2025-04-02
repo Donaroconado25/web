@@ -8,7 +8,7 @@ import Logo from "../../../../public/resources/logotipo.png";
 export const Hero2 = () => {
   const t = useTranslations();
   return (
-    <div className="relative w-full h-screen md:h-96 overflow-hidden">
+    <div className="relative w-full h-screen overflow-hidden">
       <video
         src="/resources/hero.mp4"
         autoPlay
@@ -26,6 +26,7 @@ export const Hero2 = () => {
           height={110}
           className="h-auto"
         />
+        <span className="font-bold text-2xl text-red">Quality Insurance</span>
         <h1 className="text-5xl font-bold text-white">{t("home.title")}</h1>
         <p className="text-lg w-full md:max-w-[900px] text-white">
           {t("home.description")}
