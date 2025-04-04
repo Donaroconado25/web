@@ -1,3 +1,4 @@
+import { QualityBadge } from "@/components/molecules";
 import {
   Benefits,
   Clients,
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero2 />
       <Clients />
       <Services />
+      <QualityBadge />
       <Benefits />
       <Testimonials />
       <Footer />

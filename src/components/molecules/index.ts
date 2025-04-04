@@ -1,3 +1,9 @@
+export { DentalInsuranceDetails } from "./DentalInsuranceDetails/DentalInsuranceDetails";
+export { HealthInsuranceDetails } from "./HealthInsuranceDetails/HealthInsuranceDetails";
+export { LifeInsuranceDetails } from "./LifeInsuranceDetails/LifeInsuranceDetails";
+export { MedicalInsuranceDetails } from "./MedicalInsuranceDetails/MedicalInsuranceDetails";
+export { AccidentInsuranceDetails } from "./AccidentInsuranceDetails/AccidentInsuranceDetails";
 export { Menu } from "./Menu/Menu";
 export { Topheader } from "./Topheader/Topheader";
 export { WhatsAppBubble } from "./WhatsappBubble/WhatsappBubble";
+export { QualityBadge } from "./QualityBadge/QualityBadge";

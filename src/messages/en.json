@@ -17,6 +17,7 @@
     "services": {
       "title": "Our Services",
       "description": "We are transforming the way people acquire insurance worldwide.",
+      "btnMore": "Discover more",
       "lifeInsurances": {
         "title": "Life Insurance",
         "description": "Protect your loved ones with a life insurance policy that ensures financial security in any situation."
@@ -36,7 +37,106 @@
       "otherInsurances": {
         "title": "Dental Insurance",
         "description": "Enhance your coverage with dental insurance for greater peace of mind."
+      },
+      "medicalInsurances": {
+        "title": "Medical Plan",
+        "description": "It is designed to offer quality and accessible care for you and your family, and does not require immigration status."
+      },
+      "details": {
+        "lifeInsurance": {
+          "title": "Life Insurance",
+          "description": "Life insurance is essential to protect loved ones in case of death, ensuring they can maintain their quality of life in the event of an unexpected situation. There are different types of life insurance depending on each person's needs:",
+          "itemOne": "Term Life Insurance: Provides temporary coverage for a specific period, such as 10, 15, 20, or 30 years. If the insured person passes away during the coverage period, the beneficiary receives the death benefit.",
+          "itemTwo": "Indexed Universal Life Insurance (IUL): Combines financial protection with the potential for additional returns based on the performance of stock market indices. A portion of the premiums is invested in indices like the S&P 500, generating returns.",
+          "benefits": {
+            "title": "Benefits",
+            "itemOne": "Provides financial peace of mind to beneficiaries.",
+            "itemTwo": "May include additional benefits for injuries or critical illnesses.",
+            "itemThree": "Offers investment options with additional returns for the insured."
+          },
+          "resume": "In summary, life insurance not only provides support to loved ones in case of death but can also be a tool for saving and investment."
+        },
+        "healthInsurance": {
+          "title": "Health Insurance",
+          "obamaCareTitle": "What is Obamacare?",
+          "obamaCareDescription": "ObamaCare, officially known as the Affordable Care Act (ACA), was introduced by President Barack Obama and enacted in 2010. Its goal is to reform the U.S. healthcare system to make health insurance more accessible and affordable for more people.",
+          "peopleObamaCareTitle": "Who qualifies for Obamacare?",
+          "peopleObamaCareDescription": "People who qualify for ObamaCare are those with low incomes, who file taxes in the United States, and have legal immigration status. This law allows millions of people to obtain health insurance at a much lower cost than traditional private plans, which were previously unaffordable for many due to high prices.",
+          "advantagesTitle": "Advantages of Obamacare",
+          "advantagesDescription": "Thanks to the Affordable Care Act, many of the issues that previously existed with health insurance in the U.S. have been significantly reduced. For example, people with pre-existing conditions, disabilities, or older adults cannot be denied coverage by insurers. This has resulted in more inclusive and accessible coverage. At our agency, we ensure that all our clients have the right coverage based on their needs, helping many families avoid financial burdens due to high medical costs.",
+          "benefitsTitle": "Benefits of Obamacare",
+          "benefits": {
+            "itemOne": "Emergency care",
+            "itemTwo": "Hospitalization",
+            "itemThree": "Maternity coverage",
+            "itemFour": "Medications",
+            "itemFive": "Rehabilitation",
+            "itemSix": "Laboratory services",
+            "itemSeven": "Preventive care",
+            "itemEight": "Pediatric care",
+            "itemNine": "Dental coverage",
+            "itemTen": "Vision coverage",
+            "itemEleven": "Unlimited coverage for chronic disease treatment, diabetes, and hypertension",
+            "itemTwelve": "Mental health services",
+            "itemThirteen": "Rehabilitation services",
+            "itemFourteen": "Access to preventive services"
+          }
+        },
+        "dentalInsurance": {
+          "title": "Dental Insurance",
+          "description": "Dental insurance promotes the prevention of dental problems, such as cavities and gum disease, through regular dentist visits. It provides financial protection for a variety of dental treatments, from routine exams to more complex procedures.",
+          "benefits": {
+            "title": "Benefits",
+            "itemOne": "Preventive Coverage: Oral exams, cleanings, routine X-rays, and preventive treatments such as fluoride.",
+            "itemTwo": "Basic Procedures: Fillings, extractions, and treatment of periodontal diseases.",
+            "itemThree": "Major Procedures: Coverage for crowns, bridges, dentures, and root canal treatments."
+          },
+          "resume": "Oral health is closely linked to overall health, as dental issues can increase the risk of diseases such as diabetes and cardiovascular conditions."
+        },
+        "visionInsurance": {
+          "title": "Vision Insurance",
+          "description": "Vision insurance is an essential tool for eye health care, encouraging people to undergo regular eye exams. This insurance helps with the early detection of eye diseases such as cataracts, macular degeneration, and diabetic retinopathy. It also covers treatment costs for vision problems such as myopia, hyperopia, and astigmatism.",
+          "benefits": {
+            "title": "Benefits",
+            "itemOne": "Regular eye exams.",
+            "itemTwo": "Early detection of eye diseases.",
+            "itemThree": "Coverage for treatments of vision problems."
+          }
+        },
+        "accidentInsurance": {
+          "title": "Accident Insurance",
+          "description": "Supplemental accident insurance is additional coverage to your primary health insurance, designed to provide extra protection against costs resulting from an accident. This type of insurance covers a variety of situations, such as:",
+          "typeOne": "Traffic Accidents: Covers injuries or death caused by vehicle accidents, whether as a driver, passenger, or pedestrian.",
+          "typeTwo": "Workplace Accidents: Covers injuries or death that occur in the workplace or while performing a job-related task.",
+          "typeThree": "Sports Accidents: Provides coverage for injuries or death sustained during physical activities or sports.",
+          "typeFour": "Household Accidents: Covers accidents that happen at home or on the insured's property.",
+          "benefits": {
+            "title": "Benefits",
+            "itemOne": "Medical Expenses: Includes medical treatment related to the injury or illness, such as hospitalizations, surgeries, medications, and therapies.",
+            "itemTwo": "Lost Income: Offers compensation for the inability to work due to an injury.",
+            "itemThree": "Funeral Expenses: Covers funeral costs in the event of the insured's death."
+          }
+        },
+        "medicalInsurance": {
+          "title": "Benefits",
+          "itemOne": "General Practitioner Visits: $5 copay per consultation.",
+          "itemTwo": "Specialist Visits: Between $20 and $50 copay, depending on the specialty.",
+          "itemThree": "Preventive Services: All preventive tests included at no additional cost.",
+          "itemFour": "Dental and Vision Care or Special Discounts: Get exclusive discounts on dental and vision services.",
+          "itemFive": "Emergency or Urgent Care: Services available for just $150.",
+          "itemSix": "Home Medical Visits: A general practitioner will come to your home when needed.",
+          "itemSeven": "Pharmacy or Medication Coverage: Access to pharmacies with preferential conditions.",
+          "itemEight": "Maternity Care or Maternity Package: Affordable pricing and comprehensive services for mother and baby care.",
+          "itemNine": "Scheduled Surgeries or Surgery Discounts: Up to 60% off on scheduled surgical procedures.",
+          "itemTen": "Hospital Negotiations or Direct Hospital Deals: Guaranteed competitive and accessible pricing.",
+          "resume": "Best of all: This plan does not require immigration status, providing access to quality healthcare without barriers."
+        }
       }
+    },
+    "qualityBadge": {
+      "title": "At RD Quality Insurance, your well-being is our priority",
+      "description": "Each of our insurance plans is designed to provide comprehensive protection, ensuring both your physical safety and financial stability. We are committed to helping you choose the option that best suits your needs, guiding you toward ideal coverage.",
+      "btnText": "Trust us to protect what matters most"
     },
     "benefits": {
       "title": "Why Choose Us?",
@@ -79,7 +179,7 @@
       "writeme": "Write to Us",
       "visitme": "Visit Us",
       "timeTitle": "Business Hours",
-      "time": "Monday to Friday from 9:00 AM to 6:00 PM",
+      "time": "24 hours",
       "rights": "@2025 All rights reserved.",
       "privacyPolicy": "Privacy Policy",
       "termsAndConditions": "Terms and Conditions"

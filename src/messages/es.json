@@ -17,6 +17,7 @@
     "services": {
       "title": "Nuestros servicios",
       "description": "Estamos transformando la forma en que las personas adquieren seguros en el mundo.",
+      "btnMore": "Descubre más",
       "lifeInsurances": {
         "title": "Seguros de vida",
         "description": "Protege a tus seres queridos con un seguro de vida que garantiza seguridad financiera en cualquier situación."
@@ -36,7 +37,106 @@
       "otherInsurances": {
         "title": "Seguros dentales",
         "description": "Mejora tu cobertura con seguros dentales para mayor tranquilidad."
+      },
+      "medicalInsurances": {
+        "title": "Plan Médico",
+        "description": "Está diseñado para ofrecerte una atención de calidad y accesible para ti y tu familia, no requiere estatus migratorio"
+      },
+      "details": {
+        "lifeInsurance": {
+          "title": "Seguros de vida",
+          "description": "El seguro de vida es fundamental para proteger a los seres queridos en caso de fallecimiento, asegurando que puedan mantener su calidad de vida ante un evento inesperado. Existen diferentes tipos de seguros de vida según las necesidades de cada persona:",
+          "itemOne": "Seguro de Vida a Término: Ofrece cobertura temporal durante un periodo determinado, como 10, 15, 20 o 30 años. Si el asegurado fallece durante el período de cobertura, el beneficiario recibe el beneficio por muerte.",
+          "itemTwo": "Seguro de Vida Universal Indexado (IUL): Combina protección financiera con la posibilidad de obtener rendimientos adicionales, basados en el desempeño de índices bursátiles. Parte de las primas se invierte en índices como el S&amp;P 500, lo que genera ganancias.",
+          "benefits": {
+            "title": "Beneficios",
+            "itemOne": "Proporciona tranquilidad financiera a los beneficiarios.",
+            "itemTwo": "Puede incluir beneficios adicionales por lesiones o enfermedades críticas.",
+            "itemThree": "Ofrece opciones de inversión con rendimientos adicionales para el asegurado."
+          },
+          "resume": "En resumen, el seguro de vida no solo brinda apoyo a los seres queridos en caso de fallecimiento, sino que también puede ser una herramienta para el ahorro y la inversión."
+        },
+        "healthInsurance": {
+          "title": "Seguros de salud",
+          "obamaCareTitle": "¿Qué es el Obamacare?",
+          "obamaCareDescription": "ObamaCare, oficialmente conocida como la Ley de Cuidado de Salud a Bajo Costo (Affordable Care Act, ACA), fue impulsada por el presidente Barack Obama y promulgada en 2010. Su objetivo es reformar el sistema de salud de Estados Unidos, con el fin de hacer que los seguros médicos sean más accesibles y asequibles para una mayor cantidad de personas.",
+          "peopleObamaCareTitle": "¿Quiénes califican para el Obamacare?",
+          "peopleObamaCareDescription": "Las personas que califican para ObamaCare son aquellas que tienen ingresos bajos, reportan impuestos en los Estados Unidos y cuentan con un estatus migratorio legal. Esta ley permite que millones de personas adquieran un seguro médico a un costo mucho más bajo que los planes privados tradicionales, lo cual antes no era posible para muchos debido a sus altos precios.",
+          "advantagesTitle": "Ventajas del Obamacare",
+          "advantagesDescription": "Gracias a la Ley de Cuidado de Salud a Bajo Costo, los problemas que antes existían con los seguros médicos en EE. UU. se han reducido significativamente. Por ejemplo, las personas con enfermedades preexistentes, discapacidades o personas mayores no pueden ser rechazadas por las aseguradoras. Esto ha resultado en una cobertura más inclusiva y accesible. En nuestra agencia, nos aseguramos de que todos nuestros clientes tengan la cobertura adecuada según sus necesidades, lo que ha ayudado a muchas familias a evitar cargas económicas debido a los altos costos médicos.",
+          "benefitsTitle": "Beneficios del Obamacare",
+          "benefits": {
+            "itemOne": "Emergencias",
+            "itemTwo": "Hospitaización",
+            "itemThree": "Cobertura de embarazo",
+            "itemFour": "Medicamentos",
+            "itemFive": "Rehabilitación",
+            "itemSix": "Laboratorios",
+            "itemSeven": "Cuidados preventivos",
+            "itemEight": "Cuidados pediátricos",
+            "itemNine": "Cobertura dental",
+            "itemTen": "Cobertura de visión",
+            "itemEleven": "Cobertura sin límites para el tratamiento de enfermedades crónicas, diabetes e hipertensión",
+            "itemTwelve": "Servicios de salud mental",
+            "itemThirteen": "Servicios de rehabilitación",
+            "itemFourteen": "Acceso a servicios preventivos"
+          }
+        },
+        "dentalInsurance": {
+          "title": "Seguro dental",
+          "description": "El seguro dental fomenta la prevención de problemas dentales, como caries y enfermedades de las encías, a través de visitas regulares al dentista. Ofrece protección financiera para una variedad de tratamientos dentales, desde exámenes hasta procedimientos más complejos.",
+          "benefits": {
+            "title": "Beneficios",
+            "itemOne": "Cobertura Preventiva: Exámenes bucales, limpiezas, radiografías rutinarias y tratamientos preventivos como flúor.",
+            "itemTwo": "Procedimientos Básicos: Empastes, extracciones y tratamiento de enfermedades periodontales.",
+            "itemThree": "Procedimientos Mayores: Cobertura para coronas, puentes, prótesis y tratamientos de conductos."
+          },
+          "resume": "La salud dental está estrechamente relacionada con la salud general, ya que problemas bucales pueden aumentar el riesgo de enfermedades como diabetes y enfermedades cardiovasculares."
+        },
+        "visionInsurance": {
+          "title": "Seguros de visión",
+          "description": "El seguro de visión es una herramienta esencial para el cuidado de la salud ocular, incentivando a las personas a realizar exámenes regulares. Este seguro ayuda en la detección temprana de enfermedades oculares como cataratas, degeneración macular y retinopatía diabética. También cubre los costos de tratamiento para problemas de visión como miopía, hipermetropía y astigmatismo.",
+          "benefits": {
+            "title": "Beneficios",
+            "itemOne": "Exámenes regulares de la vista.",
+            "itemTwo": "Detección temprana de enfermedades oculares.",
+            "itemThree": "Cobertura de tratamientos para problemas de visión."
+          }
+        },
+        "accidentInsurance": {
+          "title": "Seguros de accidentes",
+          "description": "Un seguro de accidentes suplementario es una cobertura adicional a tu seguro de salud principal, diseñada para ofrecer protección extra frente a los costos derivados de un accidente. Este tipo de seguro cubre una variedad de situaciones, como:",
+          "typeOne": "Accidentes de Tráfico: Protege contra lesiones o muerte ocasionadas por accidentes vehiculares, ya sea como conductor, pasajero o peatón.",
+          "typeTwo": "Accidentes Laborales: Cubre lesiones o muerte ocurridas en el ámbito laboral, tanto en el lugar de trabajo como mientras se realiza una tarea relacionada con el empleo.",
+          "typeThree": "Accidentes Deportivos: Ofrece cobertura para lesiones o muertes sufridas durante la práctica de actividades físicas o deportes.",
+          "typeFour": "Accidentes Domésticos: Cubre los accidentes que suceden en el hogar o en la propiedad del asegurado.",
+          "benefits": {
+            "title": "Beneficios",
+            "itemOne": "Gastos Médicos: Incluye tratamiento médico relacionado con la lesión o enfermedad, tales como hospitalizaciones, cirugías, medicamentos y terapias.",
+            "itemTwo": "Ingresos Perdidos: Ofrece indemnización por la incapacidad de trabajar debido a una lesión.",
+            "itemThree": "Gastos Funerarios: Cubre los costos funerarios en caso de fallecimiento del asegurado."
+          }
+        },
+        "medicalInsurance": {
+          "title": "Beneficios",
+          "itemOne": "Consultas Médicas o Médico General: $5 de copago por consulta.",
+          "itemTwo": "Médico Especialista: Entre $20 y $50 de copago, dependiendo de la especialidad.",
+          "itemThree": "Servicios Preventivos o Prevenciones Incluidas: Todas las pruebas preventivas sin costo adicional.",
+          "itemFour": "Atención Dental y Visión o Descuentos Especiales: Obtén descuentos exclusivos en servicios de odontología y atención visual.",
+          "itemFive": "Emergencias o Centro de Urgencias: Atención por solo $150.",
+          "itemSix": "Atención Domiciliaria o Visita Médica a Domicilio: Tu médico general acudirá a tu casa cuando lo necesites.",
+          "itemSeven": "Farmacias o Cobertura en Medicamentos: Acceso a farmacias con condiciones preferenciales.",
+          "itemEight": "Maternidad o Paquete de Atención Maternidad: Costo accesible y servicios completos para el cuidado de la madre y el bebé.",
+          "itemNine": "Cirugías Programadas o Descuentos en Cirugías: Hasta un 60% de descuento en procedimientos quirúrgicos programados.",
+          "itemTen": "Negociación de Hospitales o Negociación Directa con Hospitales: Garantía de precios competitivos y accesibles.",
+          "resume": "Lo mejor de todo: Este plan no requiere estatus migratorio, brindando acceso a atención médica de calidad sin barreras."
+        }
       }
+    },
+    "qualityBadge": {
+      "title": "En Rd Quality Insurance, tu bienestar es nuestra prioridad",
+      "description": "Cada uno de nuestros seguros está diseñado para brindarle protección integral, garantizando tanto su seguridad física como su estabilidad financiera. Nos comprometemos a ayudarte a elegir la opción que mejor se adapte a tus necesidades, guiándolo hacia una cobertura ideal.",
+      "btnText": "Confía en nosotros para proteger lo que más importa"
     },
     "benefits": {
       "title": "¿Por qué elegirnos?",
@@ -79,7 +179,7 @@
       "writeme": "Escríbenos",
       "visitme": "Visítanos",
       "timeTitle": "Horario de atención",
-      "time": "Lunes a viernes de 9:00 AM a 6:00 PM",
+      "time": "24 horas",
       "rights": "@2025 Todos los derechos reservados.",
       "privacyPolicy": "Política de privacidad",
       "termsAndConditions": "Términos y condiciones"
