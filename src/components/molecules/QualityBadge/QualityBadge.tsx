@@ -67,7 +67,7 @@ export const QualityBadge = () => {
             viewport={{ once: true }}
             className="inline-block"
           >
-            <div className="inline-flex items-center justify-center px-6 py-3 rounded-full bg-gray backdrop-blur-sm hover:bg-white/20 transition-all">
+            <div className="inline-flex items-center justify-center px-6 py-3 rounded-full text-black bg-white backdrop-blur-sm transition-all">
               <span className="text-xl font-medium">{t("btnText")}</span>
             </div>
           </motion.div>
