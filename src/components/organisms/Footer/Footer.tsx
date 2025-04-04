@@ -71,7 +71,7 @@ export const Footer = () => {
                     <div>
                       <p className="font-medium">{t("home.contact.writeme")}</p>
                       <p className="text-muted-foreground">
-                        info@rdqualityincinsurance.com
+                        info@rdqualityinsurance.com
                       </p>
                     </div>
                   </motion.div>
@@ -121,7 +121,9 @@ export const Footer = () => {
 
         {/* Bottom bar with copyright, legal links, and social media */}
         <div className="pt-8 border-t border-muted-foreground/20 flex flex-col md:flex-row justify-between items-center gap-4">
-          <span className="text-sm text-muted-foreground">
+          <span
+            className="text-sm text-muted-foreground"
+          >
             {t("home.contact.rights")}
           </span>
 

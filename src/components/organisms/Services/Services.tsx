@@ -55,7 +55,7 @@ const Service = ({
         <p className="mb-4 text-black/50">{t(description)}</p>
         <button
           onClick={onToggleExpand}
-          className="flex gap-2 justify-center items-center w-full p-2 bg-gray rounded-lg text-white hover:bg-red transition-all cursor-pointer"
+          className="flex gap-2 justify-center items-center w-full p-2 bg-red rounded-lg text-white transition-all cursor-pointer"
         >
           <span>{t("home.services.btnMore")}</span>
           <span>
