@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 import { Phone, Mail, MapPin, Clock, Instagram } from "lucide-react";
 import { useTranslations } from "next-intl";
-import Link from "next/link";
 
 export const Footer = () => {
   const t = useTranslations();
