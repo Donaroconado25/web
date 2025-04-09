@@ -46,8 +46,12 @@
         "lifeInsurance": {
           "title": "Life Insurance",
           "description": "Life insurance is essential to protect loved ones in case of death, ensuring they can maintain their quality of life in the event of an unexpected situation. There are different types of life insurance depending on each person's needs:",
-          "itemOne": "Term Life Insurance: Provides temporary coverage for a specific period, such as 10, 15, 20, or 30 years. If the insured person passes away during the coverage period, the beneficiary receives the death benefit.",
-          "itemTwo": "Indexed Universal Life Insurance (IUL): Combines financial protection with the potential for additional returns based on the performance of stock market indices. A portion of the premiums is invested in indices like the S&P 500, generating returns. Pay in life.",
+          "itemOne": "Term Life Insurance: This is temporary coverage that provides life insurance for a specific period of 10, 15, 20, or 30 years, depending on age. If the insured person passes away during the coverage period, the beneficiary receives the death benefit. It also offers living benefits in the case of injury or a chronic, critical, or terminal illness. Premiums are usually lower than other types of life insurance. You can choose the coverage period and the death benefit amount.",
+
+          "itemTwo": "Indexed Universal Life Insurance (IUL): This is a type of life insurance that combines traditional financial protection with the potential to earn additional returns based on the performance of a specific investment index. A portion of the premiums is invested in a market index, such as the S&P 500, which generates earnings. You can withdraw money from the policy to cover expenses or emergencies. The cash value grows over time based on the performance of the chosen stock market indices.",
+
+          "itemNote": "It's important to keep in mind that every person has unique financial needs and goals. It’s recommended to speak with a licensed insurance agent to determine which type of life insurance is best for you. Life insurance is a valuable financial safety net for your loved ones, helping them maintain their standard of living. Knowing you have life insurance can reduce financial stress and bring peace of mind.",
+
           "benefits": {
             "title": "Benefits",
             "itemOne": "Provides financial peace of mind to beneficiaries.",
@@ -129,7 +133,8 @@
           "itemEight": "Maternity Care or Maternity Package: Affordable pricing and comprehensive services for mother and baby care.",
           "itemNine": "Scheduled Surgeries or Surgery Discounts: Up to 60% off on scheduled surgical procedures.",
           "itemTen": "Hospital Negotiations or Direct Hospital Deals: Guaranteed competitive and accessible pricing.",
-          "resume": "Best of all: This plan does not require immigration status, providing access to quality healthcare without barriers."
+          "resume": "Best of all: This plan does not require immigration status, providing access to quality healthcare without barriers.",
+          "quote": "This health plan gives you the option to see general doctors for a $5 copay, and specialists for a copay between $20 and $50, depending on their specialty. You also have access to all preventive care at no cost. Discounts are available for dental and vision services. Urgent care visits cost $150. The plan also includes home visits from a general doctor and covers pharmacies. It offers a fixed-cost package for maternity care and up to 60% off on scheduled surgeries. Hospital cost negotiations are also included. One of the most important and beneficial aspects of this health plan is that it does not require immigration status."
         }
       }
     },

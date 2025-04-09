@@ -46,15 +46,17 @@
         "lifeInsurance": {
           "title": "Seguros de vida",
           "description": "El seguro de vida es fundamental para proteger a los seres queridos en caso de fallecimiento, asegurando que puedan mantener su calidad de vida ante un evento inesperado. Existen diferentes tipos de seguros de vida según las necesidades de cada persona:",
-          "itemOne": "Seguro de Vida a Término: Ofrece cobertura temporal durante un periodo determinado, como 10, 15, 20 o 30 años. Si el asegurado fallece durante el período de cobertura, el beneficiario recibe el beneficio por muerte.",
-          "itemTwo": "Seguro de Vida Universal Indexado (IUL): Combina protección financiera con la posibilidad de obtener rendimientos adicionales, basados en el desempeño de índices bursátiles. Parte de las primas se invierte en índices como el S&P 500, lo que genera ganancias. Paga en vida",
+          "itemOne": "Seguro de Vida a Término: Es una cobertura temporal proporcionada cobertura de vida por un periodo determinado de 10, 15, 20 o 30 años, dependiendo de la edad. Si el asegurado fallece durante el periodo de cobertura, el beneficiario recibe el beneficio de muerte.También proporciona beneficios en vida, por una lesión o una enfermedad crónica, crítica o terminal. Las primas suelen ser más bajas que los otros tipos de seguros de vida. Puede elegir el periodo de cobertura y el monto del beneficio de muerte.",
+          "itemTwo": "Seguro de Vida Universal Indexado (IUL): es un tipo de seguro de vida que combina la protección financiera tradicional de un seguro de vida con la posibilidad de obtener rendimientos adicionales, basados en el desempeño de un índice de inversión específico. Una parte de las primas se invierte en el índice del mercado, por ejemplo: el S&P 500, lo que genera ganancias. Puedes retirar dinero del seguro para cubrir gastos o emergencias. El crecimiento con el tiempo según el rendimiento de los índices del mercado bursátil, ya mencionados.",
+          "itemNote": "Es importante tener en cuenta que cada persona tiene necesidades y objetivos financieros únicos. Es recomendable consultar con un agente de seguros para determinar qué tipo de seguro de vida es más adecuado para ti. Un seguro de vida es un sustento económico de valor importante para los seres queridos para que  puedan mantener su nivel de vida. Saber que contamos con un seguro de vida puede reducir el estrés financiero y proporcionar tranquilidad.",
           "benefits": {
             "title": "Beneficios",
             "itemOne": "Proporciona tranquilidad financiera a los beneficiarios.",
             "itemTwo": "Puede incluir beneficios adicionales por lesiones o enfermedades críticas.",
             "itemThree": "Ofrece opciones de inversión con rendimientos adicionales para el asegurado."
           },
-          "resume": "En resumen, el seguro de vida no solo brinda apoyo a los seres queridos en caso de fallecimiento, sino que también puede ser una herramienta para el ahorro y la inversión."
+          "resume": "En resumen, el seguro de vida no solo brinda apoyo a los seres queridos en caso de fallecimiento, sino que también puede ser una herramienta para el ahorro y la inversión.",
+          "quote": "Este plan médico te brinda la opción de tener médicos generales por $5 de copago, médicos especialistas entre $20 y $50 de copago, dependiendo su especialidad. Tienes la opción de tener todas las prevenciones incluidas sin costo. Tienes descuentos en dental y visión. Centro urgencia por $150.  También incluye la visita del médico general a su casa  Incluye Farmacias. Un paquete de costo en atención de maternidad. Cirugías programadas hasta un 60% de descuento. Negociación de Hospital. Lo importante y bueno de este plan médico, es que no requiere estatus migratorio."
         },
         "healthInsurance": {
           "title": "Seguros de salud",

@@ -18,6 +18,7 @@ export const MedicalInsuranceDetails = () => {
         <li>{t("itemTen")}</li>
       </ul>
       <p className="mt-4">{t("resume")}</p>
+      <p className="mt-4">{t("quote")}</p>
     </div>
   );
 };
