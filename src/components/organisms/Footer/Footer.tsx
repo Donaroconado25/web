@@ -71,7 +71,7 @@ export const Footer = () => {
                     <div>
                       <p className="font-medium">{t("home.contact.writeme")}</p>
                       <p className="text-muted-foreground">
-                        info@rdqualityinsurance.com
+                        rdqualityinsurance@gmail.com
                       </p>
                     </div>
                   </motion.div>
