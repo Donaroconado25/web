@@ -47,7 +47,7 @@
           "title": "Seguros de vida",
           "description": "Existe una gran variedad de seguros de vida:",
           "itemOne": "Seguro de término: Es una cobertura temporal proporcionada cobertura de vida por un periodo determinado de 10, 15, 20 o 30 años, dependiendo de la edad. Si el asegurado fallece durante el periodo de cobertura, el beneficiario recibe el beneficio de muerte. También proporciona beneficios en vida, por una lesión o una enfermedad crónica, crítica o terminal. Las primas suelen ser más bajas que los otros tipos de seguros de vida. Puede elegir el periodo de cobertura y el monto del beneficio de muerte.",
-          "itemTwo": "Seguro de vida universal indexado, IUL, por sus siglas en inglés: Un seguro de vida indexado es un tipo de seguro de vida que combina la protección financiera tradicional de un seguro de vida con la posibilidad de obtener rendimientos adicionales, basados en el desempeño de un índice de inversión específico. Una parte de las primas se invierte en el índice del mercado, por ejemplo: el S&amp;P 500, lo que genera ganancias. Puedes retirar dinero del seguro para cubrir gastos o emergencias. El crecimiento con el tiempo según el rendimiento de los índices del mercado bursátil, ya mencionados.",
+          "itemTwo": "Seguro de vida universal indexado, IUL, por sus siglas en inglés: Un seguro de vida indexado es un tipo de seguro de vida que combina la protección financiera tradicional de un seguro de vida con la posibilidad de obtener rendimientos adicionales, basados en el desempeño de un índice de inversión específico. Una parte de las primas se invierte en el índice del mercado, por ejemplo: el S&P 500, lo que genera ganancias. Puedes retirar dinero del seguro para cubrir gastos o emergencias. El crecimiento con el tiempo según el rendimiento de los índices del mercado bursátil, ya mencionados.",
           "itemNote": "Es importante tener en cuenta que cada persona tiene necesidades y objetivos financieros únicos. Es recomendable consultar con un agente de seguros para determinar qué tipo de seguro de vida es más adecuado para ti. Un seguro de vida es un sustento económico de valor importante para los seres queridos para que puedan mantener su nivel de vida. Saber que contamos con un seguro de vida puede reducir el estrés financiero y proporcionar tranquilidad."
         },
         "healthInsurance": {
@@ -100,7 +100,7 @@
           "benefits": {
             "title": "Beneficios",
             "itemOne": "GASTOS MÉDICOS: La cobertura cubre los gastos médicos relacionados con el tratamiento de la lesión o enfermedad, incluyendo hospitalizaciones, cirugías, medicamentos y terapias.",
-            "itemTwo": "-NGRESOS PERDIDOS: La cobertura puede proporcionar una indemnización por ingresos perdidos debido a la incapacidad de trabajar causada por la lesión.",
+            "itemTwo": "-INGRESOS PERDIDOS: La cobertura puede proporcionar una indemnización por ingresos perdidos debido a la incapacidad de trabajar causada por la lesión.",
             "itemThree": "GASTOS FUNERARIOS: La cobertura puede proporcionar una indemnización para cubrir los gastosfunerarios en caso de muerte del asegurado."
           }
         },
