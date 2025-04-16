@@ -78,15 +78,13 @@
         },
         "dentalInsurance": {
           "title": "Dental Insurance",
-          "description": "Dental insurance encourages the prevention of dental problems, such as cavities and gum disease, through regular visits to the dentist. It provides financial protection for a variety of dental treatments, from checkups to more complex procedures.",
+          "description": "Dental insurance encourages regular visits to the dentist, which helps prevent dental issues like cavities, gingivitis, and periodontal disease. Early problem detection:",
           "benefits": {
-            "title": "Benefits",
-            "itemOne": "Dental insurance encourages regular dentist visits, which helps prevent dental issues like cavities, gingivitis, and periodontal disease.",
-            "itemTwo": "Early detection: Dental insurance allows for regular exams and cleanings, which help detect dental issues at an early stage when they are easier to treat.",
-            "itemThree": "Dental insurance covers the cost of dental treatments such as fillings, crowns, bridges, and extractions.",
-            "itemFour": "Dental insurance protects you from unexpected dental expenses, helping you maintain a stable budget. Oral health is linked to overall health, as dental problems can increase the risk of conditions like diabetes, cardiovascular disease, and respiratory illnesses."
+            "itemOne": "Dental insurance allows you to get regular exams and cleanings, which helps detect dental problems at an early stage when they are easier to treat.",
+            "itemTwo": "Dental insurance covers the cost of dental treatments such as fillings, crowns, bridges, and extractions.",
+            "itemThree": "Dental insurance protects you against unexpected expenses for dental treatments, helping you maintain a stable budget. Relationship between oral health and general health: Oral health is linked to overall health, as dental problems can increase the risk of diseases such as diabetes, cardiovascular disease, and respiratory illnesses."
           },
-          "resume": "In summary, having dental insurance is important because it provides benefits for both oral and overall health. It helps prevent dental issues, save money, and maintain good oral and general health. Coverage includes preventive, basic, and major procedures. Preventive dental procedures: oral exams, teeth cleanings, routine X-rays, sealants, fluoride for children. Basic or restorative procedures: fillings, extractions, treatment of gum disease, fillings, root canals. Major dental procedures: crowns, bridges, inlays, and dentures. Most plans cover these procedures."
+          "resume": "In summary, having dental insurance is important because it provides benefits for both oral and general health. It helps you prevent dental problems, save money, and maintain good oral and overall health. Preventive, basic, and major coverage. Preventive dental procedures: Oral exams, teeth cleanings, routine X-rays, sealants, fluoride for children. Basic or restorative procedures: Fillings, extractions, gum disease treatment, fillings, root canals. Major dental procedures: Crowns, bridges, inlays, and dentures. Most plans cover these procedures."
         },
         "visionInsurance": {
           "title": "Vision Insurance",

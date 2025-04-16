@@ -78,13 +78,11 @@
         },
         "dentalInsurance": {
           "title": "Seguro dental",
-          "description": "El seguro dental fomenta la prevención de problemas dentales, como caries y enfermedades de las encías, a través de visitas regulares al dentista. Ofrece protección financiera para una variedad de tratamientos dentales, desde exámenes hasta procedimientos más complejos.",
+          "description": "Un seguro dental te anima a realizar visitas regulares al dentista, lo que ayuda a prevenir los problemas dentales con caries, gingivitis y enfermedades periodontales. Detención temprana del problema:",
           "benefits": {
-            "title": "Beneficios",
-            "itemOne": "Un seguro dental te anima a realizar visitas regulares al dentista, lo que ayuda a prevenir los problemas dentales con caries, gingivitis y enfermedades periodontales.",
-            "itemTwo": "Detención temprana del problema: Un seguro dental te permite realizar exámenes y limpieza regulares, lo que ayuda a detectar problemas dentales en etapa temprana, cuando son más fáciles de tratar.",
-            "itemThree": "Un seguro dental te cubre el costo de tratamientos dentales, como relleno, corona, puente y extracciones.",
-            "itemFour": "Un seguro dental te protege contra gastos inesperados por tratamientos dentales, lo que te ayuda a mantener un presupuesto estable: Relaciones entre la salud oral y la salud general. La salud oral está relacionada con la salud general, ya que problemas dentales pueden aumentar el riesgo de enfermedades, como diabetes, la enfermedad cardiovascular y las respiratorias."
+            "itemOne": "Un seguro dental te permite realizar exámenes y limpieza regulares, lo que ayuda a detectar problemas dentales en etapa temprana, cuando son más fáciles de tratar..",
+            "itemTwo": "Un seguro dental te cubre el costo de tratamientos dentales, como relleno, corona, puente y extracciones.",
+            "itemThree": "Un seguro dental te protege contra gastos inesperados por tratamientos dentales, lo que te ayuda a mantener un presupuesto estable: Relaciones entre la salud oral y la salud general. La salud oral está relacionada con la salud general, ya que problemas dentales pueden aumentar el riesgo de enfermedades, como diabetes, la enfermedad cardiovascular y las respiratorias."
           },
           "resume": "En resumen, tener un seguro dental es importante porque te proporciona beneficios para la salud oral y para la salud general. Te ayuda a prevenir problemas dentales, ahorrar dinero, y a mantener una buena salud oral y general. Cobertura preventiva, básica y mayor. Procedimientos de odontología preventiva: Exámenes bucales, limpieza de dientes, radiografías de rutina, selladores, flúor para niños. Procedimientos básicos o restaurativos: Empastes, extracciones, tratamiento de enfermedad de las encías, rellenos, endodoncia y tratamientos de conductos. Procedimientos de odontología mayores: Coronas, puentes, incrustaciones y prótesis. La mayoría de los planes cubren estos procedimientos."
         },
