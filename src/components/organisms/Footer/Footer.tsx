@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Phone, Mail, MapPin, Clock, Instagram } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, Instagram, Facebook } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 export const Footer = () => {
@@ -71,7 +71,7 @@ export const Footer = () => {
                     <div>
                       <p className="font-medium">{t("home.contact.writeme")}</p>
                       <p className="text-muted-foreground">
-                        rdqualityinsurance@gmail.com
+                        info@rdqualityincinsurance.com
                       </p>
                     </div>
                   </motion.div>
@@ -121,9 +121,7 @@ export const Footer = () => {
 
         {/* Bottom bar with copyright, legal links, and social media */}
         <div className="pt-8 border-t border-muted-foreground/20 flex flex-col md:flex-row justify-between items-center gap-4">
-          <span
-            className="text-sm text-muted-foreground"
-          >
+          <span className="text-sm text-muted-foreground">
             {t("home.contact.rights")}
           </span>
 
@@ -168,6 +166,20 @@ export const Footer = () => {
               whileHover={{ scale: 1.1 }}
             >
               <Instagram className="h-5 w-5" />
+            </motion.a>
+
+            <motion.a
+              href="https://www.facebook.com/share/17ZtLvMdDP/?mibextid=wwXIfr"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-red p-2 rounded-full text-white hover:bg-red/80 transition-colors"
+              initial={{ scale: 0.8, opacity: 0 }}
+              whileInView={{ scale: 1, opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.3, delay: 0.1 }}
+              whileHover={{ scale: 1.1 }}
+            >
+              <Facebook className="h-5 w-5" />
             </motion.a>
           </div>
 

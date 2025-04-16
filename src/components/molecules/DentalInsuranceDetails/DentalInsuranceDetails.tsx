@@ -11,6 +11,7 @@ export const DentalInsuranceDetails = () => {
         <li>{t("benefits.itemOne")}</li>
         <li>{t("benefits.itemTwo")}</li>
         <li>{t("benefits.itemThree")}</li>
+        <li>{t("benefits.itemFour")}</li>
       </ul>
       <p className="mt-4">{t("resume")}</p>
     </div>
