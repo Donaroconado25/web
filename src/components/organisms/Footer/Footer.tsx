@@ -89,7 +89,7 @@ export const Footer = () => {
                     <div>
                       <p className="font-medium">{t("home.contact.visitme")}</p>
                       <p className="text-muted-foreground">
-                        1222 SE 47th St Suite 408 Cape Coral,Fl 33990
+                        1222 SE 47th St Suite 408 Cape Coral,Fl 33904
                       </p>
                     </div>
                   </motion.div>

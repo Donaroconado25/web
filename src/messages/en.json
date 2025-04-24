@@ -53,16 +53,13 @@
         "healthInsurance": {
           "title": "Health Insurance",
           "obamaCareTitle": "What is Obamacare?",
-          "obamaCareDescription": "This is a very common question we get. In summary, the Obama Care health insurance, also known as the Affordable Care Act (ACA), was introduced and created in 2010. It is essentially a healthcare reform that allows more people to access affordable health insurance plans.",
-          "peopleObamaCareTitle": "Who qualifies for Obamacare?",
-          "peopleObamaCareDescription": "Those who qualify for Obama Care are low-income individuals who file taxes in the United States and have an immigration status. The law currently enables millions of people to have very low-cost medical insurance, which they otherwise could not afford through private health plans.",
-          "advantagesTitle": "Advantages of Obamacare",
-          "advantagesDescription": "Thanks to the Obama Care insurance, many of the issues that previously existed with health insurance in the United States have been greatly reduced. A simple example is that people with pre-existing conditions, disabilities, or the elderly can no longer be denied coverage by any insurance company. Our agency works to ensure that all of our clients are always insured, with a plan tailored to their specific needs. This has helped many families avoid financial hardship from high medical costs.",
+          "obamaCareDescription": "This is a very common question we get. In summary, the Obama Care health insurance, also known as the Affordable Care Act (ACA), was introduced and created in 2010. It is essentially a healthcare reform aimed at helping more people access affordable health plans.",
+          "peopleObamaCareDescription": "The law currently allows millions of people to have very low-cost health insurance, which they would otherwise be unable to afford out of pocket through private health plans. Thanks to Obama Care, many of the issues that previously existed with health insurance in the United States have been greatly reduced. A simple example is that people with pre-existing conditions, disabilities, or the elderly can no longer be denied coverage by any insurer. In this way, our agency strives to ensure that all of our clients are always covered with a plan tailored to their specific needs. This has helped many families avoid financial hardship due to high medical expenses.",
           "benefitsTitle": "Benefits of Obamacare",
           "benefits": {
             "itemOne": "Emergency services",
             "itemTwo": "Hospitalization",
-            "itemThree": "Pregnancy coverage",
+            "itemThree": "Maternity coverage",
             "itemFour": "Prescription drugs",
             "itemFive": "Rehabilitation",
             "itemSix": "Laboratory services",
@@ -70,25 +67,25 @@
             "itemEight": "Pediatric care",
             "itemNine": "Dental",
             "itemTen": "Vision",
-            "itemEleven": "No coverage limits for treatment of chronic conditions, e.g., diabetes and hypertension.",
-            "itemTwelve": "Mental health services coverage",
-            "itemThirteen": "Rehabilitation services coverage",
+            "itemEleven": "No coverage limits for chronic disease treatment. Example: Diabetes and hypertension.",
+            "itemTwelve": "Mental health service coverage",
+            "itemThirteen": "Rehabilitation service coverage",
             "itemFourteen": "Access to preventive services"
           }
         },
         "dentalInsurance": {
           "title": "Dental Insurance",
-          "description": "Dental insurance encourages regular visits to the dentist, which helps prevent dental issues like cavities, gingivitis, and periodontal disease. Early problem detection:",
+          "description": "Dental insurance allows you to make regular visits to the dentist, which helps prevent dental issues such as cavities, gingivitis, and periodontal disease.",
           "benefits": {
-            "itemOne": "Dental insurance allows you to get regular exams and cleanings, which helps detect dental problems at an early stage when they are easier to treat.",
+            "itemOne": "Dental insurance allows you to have regular checkups and cleanings, which helps detect dental problems at an early stage when they are easier to treat.",
             "itemTwo": "Dental insurance covers the cost of dental treatments such as fillings, crowns, bridges, and extractions.",
-            "itemThree": "Dental insurance protects you against unexpected expenses for dental treatments, helping you maintain a stable budget. Relationship between oral health and general health: Oral health is linked to overall health, as dental problems can increase the risk of diseases such as diabetes, cardiovascular disease, and respiratory illnesses."
+            "itemThree": "Dental insurance protects you from unexpected expenses for dental treatments, helping you maintain a stable budget. There is a connection between oral health and overall health—dental problems can increase the risk of diseases like diabetes, cardiovascular disease, and respiratory illnesses."
           },
-          "resume": "In summary, having dental insurance is important because it provides benefits for both oral and general health. It helps you prevent dental problems, save money, and maintain good oral and overall health. Preventive, basic, and major coverage. Preventive dental procedures: Oral exams, teeth cleanings, routine X-rays, sealants, fluoride for children. Basic or restorative procedures: Fillings, extractions, gum disease treatment, fillings, root canals. Major dental procedures: Crowns, bridges, inlays, and dentures. Most plans cover these procedures."
+          "resume": "In summary, having dental insurance is important because it provides benefits for both oral and overall health. It helps you prevent dental issues, save money, and maintain good oral and general health. Coverage includes preventive, basic, and major procedures. Preventive dental procedures: oral exams, teeth cleanings, routine X-rays, sealants, fluoride treatments for children. Basic or restorative procedures: fillings, extractions, gum disease treatment, fillings, root canals and endodontics. Major dental procedures: crowns, bridges, inlays, and dentures. Most plans cover these procedures."
         },
         "visionInsurance": {
           "title": "Vision Insurance",
-          "description": "Vision insurance encourages you to have regular eye exams. It also allows for the detection of eye diseases such as cataracts, macular degeneration, and diabetic retinopathy. It covers treatment costs for vision problems like myopia, hyperopia, and astigmatism. It's important to research and compare different vision insurance options to find the one that best suits your needs and budget."
+          "description": "Vision insurance allows you to have regular eye exams, helping to detect eye diseases such as cataracts, macular degeneration, and diabetic retinopathy. It also covers treatment costs for vision problems like myopia, hyperopia, and astigmatism. It's important to research and compare different vision insurance options to find the one that best fits your needs and budget."
         },
         "accidentInsurance": {
           "title": "Accident Insurance",

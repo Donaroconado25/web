@@ -53,11 +53,8 @@
         "healthInsurance": {
           "title": "Seguros de salud",
           "obamaCareTitle": "¿Qué es el Obamacare?",
-          "obamaCareDescription": "Es una pregunta muy frecuente que nos hacen. Podemos resumir que el seguro de salud Obama Care, también es conocido como la ley de cuidados médicos a bajo costo, ley (ACA) por sus siglas en inglés, Impulsada y creada en el año 2010.No es más que una reforma de salud para que más personas puedan adquirir un plan de salud económico.",
-          "peopleObamaCareTitle": "¿Quiénes califican para el Obamacare?",
-          "peopleObamaCareDescription": "Quiénes califican a Obama Care, son personas de ingresos bajos que reportan Taxes en los Estados Unidos, y que tienen un estatus migratorio. La ley en este momento posibilita que millones de personas tengan un seguro médico a muy bajo costo, que de lo contrario no pudieran pagar de su bolsillo los planes médicos privados.",
-          "advantagesTitle": "Ventajas del Obamacare",
-          "advantagesDescription": "Gracias al seguro de Obama Care los inconvenientes que antes existían con los seguros de salud en los Estados Unidos, se han reducido grandemente. Un ejemplo sencillo, es que ya las personas con enfermedades preexistentes, discapacitados o ancianos, no pueden ser rechazados por ninguna aseguradora. De esta manera, nuestra agencia trata de que todos sus clientes estén siempre asegurados y con una cobertura diseñada especialmente para cada necesidad. Esto ha ayudado a que muchas familias no hayan sufrido golpes económicos con los altos gastos médicos.",
+          "obamaCareDescription": "Es una pregunta muy frecuente que nos hacen. Podemos resumir que el seguro de salud Obama Care, también es conocido como la ley de cuidados médicos a bajo costo, ley (ACA) por sus siglas en inglés, Impulsada y creada en el año 2010.No es más que una reforma de salud para que más personas puedan adquirir un plan de salud económico .",
+          "peopleObamaCareDescription": "La ley en este momento posibilita que millones de personas tengan un seguro médico a muy bajo costo, que de lo contrario no pudieran pagar de su bolsillo los planes médicos privados. Gracias al seguro de Obama Care los inconvenientes que antes existían  con los seguros de salud en los Estados Unidos, se han reducido grandemente. Un ejemplo sencillo, es que ya las personas con enfermedades preexistentes , discapacitados o ancianos, no pueden ser rechazados por ninguna aseguradora. De esta manera, nuestra agencia trata de que todos sus clientes estén siempre asegurados y con una cobertura diseñada especialmente para cada necesidad. Esto ha ayudado a que muchas familias no hayan sufrido golpes económicos con los altos gastos médicos.",
           "benefitsTitle": "Beneficios del Obamacare",
           "benefits": {
             "itemOne": "Emergencias",
@@ -78,17 +75,17 @@
         },
         "dentalInsurance": {
           "title": "Seguro dental",
-          "description": "Un seguro dental te anima a realizar visitas regulares al dentista, lo que ayuda a prevenir los problemas dentales con caries, gingivitis y enfermedades periodontales. Detención temprana del problema:",
+          "description": "Un seguro dental te permite realizar visitas regulares al dentista, lo que ayuda a prevenir los problemas dentales con caries, gingivitis y enfermedades periodontales.",
           "benefits": {
-            "itemOne": "Un seguro dental te permite realizar exámenes y limpieza regulares, lo que ayuda a detectar problemas dentales en etapa temprana, cuando son más fáciles de tratar..",
+            "itemOne": "Un seguro dental te permite realizar exámenes y limpieza regulares, lo que ayuda a detectar problemas dentales en etapa temprana, cuando son más fáciles de tratar.",
             "itemTwo": "Un seguro dental te cubre el costo de tratamientos dentales, como relleno, corona, puente y extracciones.",
-            "itemThree": "Un seguro dental te protege contra gastos inesperados por tratamientos dentales, lo que te ayuda a mantener un presupuesto estable: Relaciones entre la salud oral y la salud general. La salud oral está relacionada con la salud general, ya que problemas dentales pueden aumentar el riesgo de enfermedades, como diabetes, la enfermedad cardiovascular y las respiratorias."
+            "itemThree": "Un seguro dental te protege contra gastos inesperados por tratamientos dentales, lo que te ayuda a mantener un presupuesto estable: Relaciones entre la salud oral y la salud general. La salud oral está relacionada con la salud general, ya que problemas dentales pueden aumentar el riesgo de enfermedades,como diabetes, la enfermedad cardiovascular y las respiratorias."
           },
-          "resume": "En resumen, tener un seguro dental es importante porque te proporciona beneficios para la salud oral y para la salud general. Te ayuda a prevenir problemas dentales, ahorrar dinero, y a mantener una buena salud oral y general. Cobertura preventiva, básica y mayor. Procedimientos de odontología preventiva: Exámenes bucales, limpieza de dientes, radiografías de rutina, selladores, flúor para niños. Procedimientos básicos o restaurativos: Empastes, extracciones, tratamiento de enfermedad de las encías, rellenos, endodoncia y tratamientos de conductos. Procedimientos de odontología mayores: Coronas, puentes, incrustaciones y prótesis. La mayoría de los planes cubren estos procedimientos."
+          "resume": "En resumen, tener un seguro dental es importante porque te proporciona beneficios para la salud oral  y para la salud general.Te ayuda a prevenir problemas dentales, ahorrar dinero, y a mantener una buena salud oral y general. Cobertura preventiva, básica y mayor. Procedimientos de odontología preventiva:  Exámenes bucales, limpieza de dientes, radiografías de rutina, selladores, flúor para niños. Procedimientos básicos o restaurativos:  Empastes, extracciones, tratamiento de enfermedad de las encías, rellenos, endodoncia y tratamientos de conductos.  Procedimientos de odontología mayores:  Coronas, puentes, incrustaciones y prótesis. La mayoría de los planes cubren estos procedimientos."
         },
         "visionInsurance": {
           "title": "Seguros de visión",
-          "description": "Un seguro de visión te anima a realizar exámenes de visión regulares. También te permite detectar enfermedades oculares, como cataratas, la degeneración macular y la retinopatía diabética. También te cubre costos de tratamiento para problemas de visión, como la miopía, la hipermetropía y el astigmatismo Es importante investigar y comparar diferentes opciones de seguros de visión para encontrar la que mejor se adapte a tus necesidades y presupuesto."
+          "description": "Un seguro de visión te permite realizar exámenes de visión regulares, detectar enfermedades oculares como cataratas, la degeneración macular y la retinopatía diabética. También cubre costos de tratamiento para problemas de visión, como la miopía la hipermetropía y el estigmatismo. Es importante investigar y comparar diferentes opciones de seguros de visión para encontrar la mejor que se adapte a tu necesidades y presupuesto."
         },
         "accidentInsurance": {
           "title": "Seguros de accidentes",
@@ -100,7 +97,7 @@
           "benefits": {
             "title": "Beneficios",
             "itemOne": "GASTOS MÉDICOS: La cobertura cubre los gastos médicos relacionados con el tratamiento de la lesión o enfermedad, incluyendo hospitalizaciones, cirugías, medicamentos y terapias.",
-            "itemTwo": "-INGRESOS PERDIDOS: La cobertura puede proporcionar una indemnización por ingresos perdidos debido a la incapacidad de trabajar causada por la lesión.",
+            "itemTwo": "INGRESOS PERDIDOS: La cobertura puede proporcionar una indemnización por ingresos perdidos debido a la incapacidad de trabajar causada por la lesión.",
             "itemThree": "GASTOS FUNERARIOS: La cobertura puede proporcionar una indemnización para cubrir los gastosfunerarios en caso de muerte del asegurado."
           }
         },

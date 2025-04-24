@@ -7,10 +7,7 @@ export const HealthInsuranceDetails = () => {
       <h3 className="text-xl font-semibold mb-3">{t("title")}</h3>
       <h4 className="font-semibold mb-2">{t("obamaCareTitle")}</h4>
       <p className="mb-4">{t("obamaCareDescription")}</p>
-      <h4 className="font-semibold mb-2">{t("peopleObamaCareTitle")}</h4>
       <p className="mb-4">{t("peopleObamaCareDescription")}</p>
-      <h4 className="font-semibold mb-2">{t("advantagesTitle")}</h4>
-      <p className="mb-4">{t("advantagesDescription")}</p>
       <h4 className="font-semibold mb-2">{t("benefitsTitle")}</h4>
       <div className="grid grid-cols-2 gap-x-4 gap-y-1 mb-4">
         <ul className="list-disc pl-5 space-y-1">
