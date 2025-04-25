@@ -46,7 +46,7 @@ const Service = ({
 }: ServiceProps) => {
   const t = useTranslations();
   return (
-    <div className="flex h-full flex-col rounded-lg border border-gray bg-gray-50 p-6 shadow-sm transition-all hover:shadow-md">
+    <div className="flex h-[800px] overflow-y-auto scroll-invisible flex-col rounded-lg border border-gray bg-gray-50 p-6 shadow-sm transition-all hover:shadow-md">
       <div className="mb-4 flex flex-col justify-between h-full">
         <Image
           src={image}
@@ -152,7 +152,7 @@ export const Services = () => {
             {t("home.services.description")}
           </p>
         </div>
-        <div className="grid gap-6 sm:grid-cols-2">
+        <div className="grid gap-6 sm:grid-cols-2 items-stretch">
           {services.map((service, index) => (
             <Service
               key={index}

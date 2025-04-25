@@ -2,10 +2,21 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@layer utilities {
+  .scroll-invisible {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE y Edge */
+
+    &::-webkit-scrollbar {
+      display: none; /* Chrome, Safari y Opera */
+    }
+  }
+}
+
 :root {
   --blue: #2b2d42;
   --light: #edf2f4;
-  --red: #66020C;
+  --red: #66020c;
   --gray: #8d99ae;
   --radius: 0.625rem;
   --background: oklch(1 0 0);
