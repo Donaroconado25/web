@@ -46,7 +46,7 @@ const Service = ({
 }: ServiceProps) => {
   const t = useTranslations();
   return (
-    <div className="flex h-[800px] overflow-y-auto scroll-invisible flex-col rounded-lg border border-gray bg-gray-50 p-6 shadow-sm transition-all hover:shadow-md">
+    <div className="flex h-full sm:h-[800px] overflow-y-auto scroll-invisible flex-col rounded-lg border border-gray bg-gray-50 p-6 shadow-sm transition-all hover:shadow-md">
       <div className="mb-4 flex flex-col justify-between h-full">
         <Image
           src={image}
