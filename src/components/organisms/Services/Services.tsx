@@ -5,7 +5,7 @@ import IHealth from "../../../../public/resources/icons/ihealth.svg";
 import IOther from "../../../../public/resources/icons/iother.svg";
 import IVision from "../../../../public/resources/icons/ivision.svg";
 import IAccident from "../../../../public/resources/icons/iaccident.svg";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
 import { ChevronDown, ChevronUp } from "lucide-react";
@@ -17,6 +17,12 @@ import {
   MedicalInsuranceDetails,
 } from "@/components/molecules";
 import { VisionInsuranceDetails } from "@/components/molecules/VisionInsuranceDetails/VisionInsuranceDetails";
+import AccidentImage from "../../../../public/resources/accident.jpeg";
+import DentalImage from "../../../../public/resources/dental.jpeg";
+import HealthImage from "../../../../public/resources/health.jpeg";
+import LifeImage from "../../../../public/resources/life.jpeg";
+import MedicalImage from "../../../../public/resources/medical.jpeg";
+import VisionImage from "../../../../public/resources/vision.jpeg";
 
 interface ServiceProps {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -26,6 +32,7 @@ interface ServiceProps {
   isExpanded: boolean;
   expandedContent: React.ReactNode;
   onToggleExpand: () => void;
+  image: StaticImageData;
 }
 
 const Service = ({
@@ -35,13 +42,21 @@ const Service = ({
   isExpanded,
   expandedContent,
   onToggleExpand,
+  image,
 }: ServiceProps) => {
   const t = useTranslations();
   return (
     <div className="flex h-full flex-col rounded-lg border border-gray bg-gray-50 p-6 shadow-sm transition-all hover:shadow-md">
       <div className="mb-4 flex flex-col justify-between h-full">
-        <div className="flex justify-start gap-4 items-center">
-          <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-red text-white">
+        <Image
+          src={image}
+          alt="Accident Insurance"
+          className="w-full h-full rounded-lg mb-4"
+          width={500}
+          height={500}
+        />
+        <div className="flex justify-center gap-4 items-center">
+          <div className="mb-4 flex h-8 w-8 items-center justify-center rounded-full bg-red text-white">
             <Image
               className="text-white fill-white"
               src={icon}
@@ -87,36 +102,42 @@ export const Services = () => {
       title: "home.services.lifeInsurances.title",
       description: "home.services.lifeInsurances.description",
       expandedContent: <LifeInsuranceDetails />,
+      image: LifeImage,
     },
     {
       icon: IHealth,
       title: "home.services.healthInsurances.title",
       description: "home.services.healthInsurances.description",
       expandedContent: <HealthInsuranceDetails />,
+      image: HealthImage,
     },
     {
       icon: IOther,
       title: "home.services.otherInsurances.title",
       description: "home.services.otherInsurances.description",
       expandedContent: <DentalInsuranceDetails />,
+      image: DentalImage,
     },
     {
       icon: IVision,
       title: "home.services.visionInsurances.title",
       description: "home.services.visionInsurances.description",
       expandedContent: <VisionInsuranceDetails />,
+      image: VisionImage,
     },
     {
       icon: IAccident,
       title: "home.services.accidentInsurances.title",
       description: "home.services.accidentInsurances.description",
       expandedContent: <AccidentInsuranceDetails />,
+      image: AccidentImage,
     },
     {
       icon: ILife,
       title: "home.services.medicalInsurances.title",
       description: "home.services.medicalInsurances.description",
       expandedContent: <MedicalInsuranceDetails />,
+      image: MedicalImage,
     },
   ];
 
@@ -139,6 +160,7 @@ export const Services = () => {
               isExpanded={expandedServiceIndex === index}
               onToggleExpand={() => toggleExpand(index)}
               expandedContent={service.expandedContent}
+              image={service.image}
             />
           ))}
         </div>
