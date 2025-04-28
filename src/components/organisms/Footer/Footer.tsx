@@ -128,7 +128,7 @@ export const Footer = () => {
           {/* Social media links */}
           <div className="flex items-center gap-4">
             <motion.a
-              href="https://www.tiktok.com/@rd.quality.insura?_t=ZS-8vCiKbO1ywq&_r=1"
+              href="https://www.tiktok.com/@rd.quality.insurance?_t=ZS-8vv6YuwMLgO&_r=1"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-red p-2 rounded-full text-white hover:bg-red/80 transition-colors"
