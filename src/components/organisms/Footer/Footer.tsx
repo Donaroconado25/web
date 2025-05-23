@@ -54,7 +54,12 @@ export const Footer = () => {
                     </div>
                     <div>
                       <p className="font-medium">{t("home.contact.callme")}</p>
-                      <p className="text-muted-foreground">+1-877-231-1888</p>
+                      <a
+                        href="tel:+18772311888"
+                        className="text-muted-foreground hover:text-primary transition-colors"
+                      >
+                        +1-877-231-1888
+                      </a>
                     </div>
                   </motion.div>
 
@@ -70,9 +75,12 @@ export const Footer = () => {
                     </div>
                     <div>
                       <p className="font-medium">{t("home.contact.writeme")}</p>
-                      <p className="text-muted-foreground">
+                      <a
+                        href="mailto:info@rdqualityincinsurance.com"
+                        className="text-muted-foreground hover:text-primary transition-colors"
+                      >
                         info@rdqualityincinsurance.com
-                      </p>
+                      </a>
                     </div>
                   </motion.div>
 
